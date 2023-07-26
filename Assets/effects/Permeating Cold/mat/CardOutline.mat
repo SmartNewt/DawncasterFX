@@ -45,9 +45,9 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: -2
-    - _intensity: 0.229
+    - _intensity: 0.54
     - _outlinePower: 0.747
-    - _whiteness: 0.425
+    - _whiteness: 0.46
     m_Colors:
     - _BaseColor: {r: 0.2028302, g: 1, b: 0.96789885, a: 0}
     - _CenterColor: {r: 0.04387683, g: 0.27156103, b: 0.3207547, a: 0}

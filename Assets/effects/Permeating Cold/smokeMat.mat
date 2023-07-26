@@ -9,8 +9,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: smokeMat
   m_Shader: {fileID: -6465566751694194690, guid: f37c0fbe7167cec468b7fec754875482, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -19,7 +17,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -33,7 +30,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Intensity: 0.5
     - _Intesity: 0.2
-    - _intensity: 0.6
+    - _intensity: -23.961264
     m_Colors:
     - _Color: {r: 0.6541474, g: 0.8354217, b: 0.9433962, a: 1}
   m_BuildTextureStacks: []
