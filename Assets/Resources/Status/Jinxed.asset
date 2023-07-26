@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Jinxed
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 1
+    effectTrigger: 1
+    description: The next Action played has no effect and reduces Jinxed by one.
+      Jinxed can not be increased by Bane.
+    statusIcon: {fileID: 4591689908783512949, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4280954075
+    effectColor:
+      serializedVersion: 2
+      rgba: 4278249431
+    clip: {fileID: 8300000, guid: a5bb173098c9d8b4d93fcd6760b604a0, type: 3}
+    triggerClip: {fileID: 8300000, guid: a5bb173098c9d8b4d93fcd6760b604a0, type: 3}
+    statusDisplayImage: {fileID: -385886592457306662, guid: 44b64a4d29ce04e4e8ee64994fc6d399,
+      type: 3}
+    clearAt: 0
+    lowerInsteadOfClear: 0
+    excludeFromRandom: 1
+    canNotBeIncreased: 0
+    triggerOnClear: 0

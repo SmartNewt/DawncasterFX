@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf55f38dd740360458b020ad7e4dff14, type: 3}
+  m_Name: Call to Arms Rogue
+  m_EditorClassIdentifier: 
+  bounty:
+    name: Call to Arms Rogue
+    icon: {fileID: -5058891823407588705, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3, type: 3}
+    description: Survive the final encounter on any difficulty as a Rogue.
+    flavorText: Aid the Radiant Crusades by peforming this task and earn extra XP.
+      New Bounties are available every day. Earning a victory points offers you the
+      opportunity to see new bounties on the same day.
+    bannerColor: {r: 0.7830189, g: 0.51315564, b: 0.05540227, a: 1}
+    requireAll: 0
+    conditions:
+    - trigger: 58
+      sourceValue: '[[className]]'
+      comparison: 2
+      targetvalue: $Rogue
+      bountySpecific: 0
+    rewardValue: 750
+    completed: 0
+    awarded: 0
+    failed: 0

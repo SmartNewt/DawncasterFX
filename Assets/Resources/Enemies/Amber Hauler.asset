@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Amber Hauler
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: A large creature hauls heavy stones through this tunnel.
+  eventImage: {fileID: 21300000, guid: a63b0346f25bfaf489a65755579eb8dc, type: 3}
+  overlayImage: {fileID: 21300000, guid: 5a70c18377ff40447b0cfe57eef42b43, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_hauler
+  battleMotion: {fileID: 7400000, guid: dd9cbc650572de8459645efefcba7cb0, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 03000000
+  maxHealth: 86
+  energyPerTurn: 0
+  cardsPerTurn: 1
+  maximumHandSize: 1
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 76d26e522022e164abd5e0af03db97cb, type: 2}
+  - {fileID: 11400000, guid: 70dd5f16b83f28744a8c0299e8d18f9a, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 828041e5ecfb3864c9cdcfa24e6b60ed, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

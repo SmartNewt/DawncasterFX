@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Healing Potion
+  m_EditorClassIdentifier: 
+  cardID: 353519
+  cardDescription: '<b>One Use:</b> Gain <b>[healing:10] HEALTH</b>
+
+    If you are
+    below 50% health, gain <b>[healing:15] HEALTH</b> instead.'
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 1
+  cardRarity: 1
+  monsterHint: 2
+  artwork: {fileID: -7517084612007212605, guid: d805840d6a905d746a4553761b8f43e8,
+    type: 3}
+  audioClip: {fileID: 8300000, guid: 5e681f380fbb69144a61cd521c882321, type: 3}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 1
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 1
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 0
+  cardKeywords:
+  - item
+  - potion
+  - treasure
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: heal:10
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 1
+      conditonOperator: 4
+      targetValue: 50
+      ignoreForDisplay: 1
+  - cardTrigger: 1
+    codeLine: heal:15
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 1
+      conditonOperator: 5
+      targetValue: 50
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

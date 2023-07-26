@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Vicious Bolter
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: These birdlike demons rain vicious bolts from the skies.
+  eventImage: {fileID: 21300000, guid: f251f25435ecb3f4689c98f8a93bbeb2, type: 3}
+  overlayImage: {fileID: 21300000, guid: 85ca6cf2cad031e43be8f86fe25822f3, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_dc_vicious_bolter
+  battleMotion: {fileID: 7400000, guid: 14720e424c68b484ea137162987b2444, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 62
+  energyPerTurn: 2
+  cardsPerTurn: 2
+  maximumHandSize: 2
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments: []
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: f166d95de9a3abe48a4c1510eaf97eea, type: 2}
+  - {fileID: 11400000, guid: c19bf15e33a6de646bf46ab8578b2e70, type: 2}
+  - {fileID: 11400000, guid: 22e29bbc7ba0c5846bdcc8e8c731bdc6, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

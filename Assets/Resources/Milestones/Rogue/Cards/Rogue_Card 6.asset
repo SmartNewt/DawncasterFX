@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35748ea8b3337b4c9b34c61c55dadf0, type: 3}
+  m_Name: Rogue_Card 6
+  m_EditorClassIdentifier: 
+  milestone:
+    type: 5
+    bonusName: 
+    image: {fileID: 4414572860384527398, guid: 5aec4c8cb20c8834293e275cffb1e0d4, type: 3}
+    description: 
+    actionLine: 
+    referenceCard: {fileID: 11400000, guid: 6a4922c07f77b3f43ba72466a9d62ad4, type: 2}
+    referencePortrait: {fileID: 0}
+    referenceTalent: {fileID: 0}
+    referenceMilestones: []

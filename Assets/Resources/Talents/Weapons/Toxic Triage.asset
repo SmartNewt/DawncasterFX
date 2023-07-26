@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Toxic Triage
+  m_EditorClassIdentifier: 
+  ID: 844579
+  expansion: 1
+  description: Whenever your foe takes damage from <b>Poison</b> heal an equal amount.
+  powerImage: {fileID: 2248191955249200393, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  tier: 6
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: 51f1fc44b08becf478529454fa4a677a, type: 3}
+  keywords: []
+  effectList:
+  - cardTrigger: 78
+    codeLine: heal:[[varValue]]:other
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 7bfc76a1c2571a64788b9a91ea869660, type: 2}
+    effectConditions:
+    - valueToCheck: 70
+      conditonOperator: 2
+      targetValue: poison
+      ignoreForDisplay: 0
+    - valueToCheck: 34
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 1
+  rINT: 0
+  rSTR: 0

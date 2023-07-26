@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Shield Master
+  m_EditorClassIdentifier: 
+  ID: 340544
+  expansion: 1
+  description: Remove all Block actions from your deck. Gain 2 Tower Shields.
+  powerImage: {fileID: -1840065393, guid: 5cf67046cfca1294da4d4aa117f97afc, type: 3}
+  tier: 2
+  flavortext: 
+  audioClip: {fileID: 0}
+  effectList:
+  - cardTrigger: 0
+    codeLine: removecard
+    referenceCard:
+    - {fileID: 11400000, guid: 8fb8ef08a2b29b546851f351a9828b6e, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 0
+    codeLine: addcard:towershield
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 0
+    codeLine: addcard:towershield
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions:
+  - {fileID: 11400000, guid: 4ea7bf590689d6a4281db00c58eae369, type: 2}
+  - {fileID: 11400000, guid: d06b4a4b12d8e6045ae219fe929cf7a9, type: 2}
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

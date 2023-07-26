@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Murder
+  m_EditorClassIdentifier: 
+  cardID: 942325
+  cardDescription: "Deal [damage:5] damage. \n<b>Ambush:</b> Draw a card. It costs
+    no energy."
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 1
+  monsterHint: 0
+  artwork: {fileID: -5879374367261768632, guid: d99cca32a57565142ab85d41d3643289,
+    type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 1
+  costDEX: 1
+  costINT: 0
+  costSTR: 0
+  costNeutral: 1
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 1
+  cardKeywords:
+  - ambush
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:5
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: shuffle
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 26
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: cost:topcard:ALL:99
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 13
+      conditonOperator: 1
+      targetValue: 0
+      ignoreForDisplay: 0
+    - valueToCheck: 26
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: draw:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 13
+      conditonOperator: 1
+      targetValue: 0
+      ignoreForDisplay: 0
+    - valueToCheck: 26
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

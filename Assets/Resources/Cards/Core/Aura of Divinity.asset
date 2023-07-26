@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Aura of Divinity
+  m_EditorClassIdentifier: 
+  cardID: 774782
+  cardDescription: This combat, draw a card whenever you gain a unique Blessing.
+    <b>Memorized</b>
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 4
+  cardRarity: 2
+  monsterHint: 4
+  artwork: {fileID: 4098286360889219673, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 1
+  costSTR: 1
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 1
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 1
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 40
+      codeLine: draw:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 29
+        conditonOperator: 2
+        targetValue: blessing
+        ignoreForDisplay: 0

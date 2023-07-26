@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7344177012266353124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7344177012266352670}
+  - component: {fileID: 7344177012266352671}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7344177012266352670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344177012266353124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 556.7225, y: 781.1433, z: -91.64103}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7344177012266352671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344177012266353124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9962532f8b9cf045b9b8e6dbe6604ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cheatMode: 0
+  testDifficulty: 0
+  forcedRewards: []
+  forcedBounties: []
+  forceTalents: []
+  playerName: Magran
+  portrait: {fileID: 1967069940614356390, guid: 84c01358ed6eff0409b3e47e515d1320,
+    type: 3}
+  portraitIndex: 0
+  basicAttack: {fileID: 11400000, guid: 02799139d89b1fe44b2cb6218c8b5fd7, type: 2}
+  startingCardID: 0
+  weaponPowerCooldown: 0
+  profession: {fileID: 11400000, guid: d06b4a4b12d8e6045ae219fe929cf7a9, type: 2}
+  level: 1
+  talentpoints: 0
+  health: 20
+  Dexterity: 0
+  Intelligence: 0
+  Strength: 0
+  maxHandSize: 10
+  cardsPerTurn: 5
+  maxEnergy: 8
+  talentRolls: 2
+  talentShown: 3
+  luck: 5
+  goldPercentage: 100
+  maxImbues: 0
+  fatigueResistance: 3
+  additionalCampfires: 0
+  experiencePercentage: 100
+  souls: 0
+  maxsouls: 100
+  upgradeRewards: 0
+  talents: []
+  imbuedCards: []
+  gold: 10
+  experience: 0
+  questflags: []
+  testDeck: []
+  playerDeck: []
+  tempValues:
+    tempHealth: 0
+    P_lastingEffects: []
+    bonusDEX: 0
+    bonusINT: 0
+    bonusSTR: 0
+    bonusHOLY: 0
+    bonusCards: 0
+    bonusHandSize: 0
+    startingCards: []
+    startingStatus: []
+    playerEvents: []
+    combatdeck: []
+    graveyard: []
+    playerHand: []
+    buriedcards: []
+    uniquecards: []
+  trackingData:
+    monstersDefeated: 0
+    mostDamageDealt: 0
+    cardsAcquired: 0
+  randommaps: 0
+  currentArea: {fileID: 0}
+  doneEvents: []
+  lastBattles: []
+  bossesDefeated: 
+  spineHealth: 6666
+  CombatQueue: []
+  seed:
+    seed: 
+    state: []
+  playerLoaded: 0
+  creationDate: 
+  timespend: 
+  lastSave: 
+  version: 

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Heavy Burden
+  m_EditorClassIdentifier: 
+  cardID: 914113
+  cardDescription: At the start of the turn, gain STR for each 5 counters on Heavy
+    Burden. Remove 1 counter for each damage you take.
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 4
+  cardRarity: 4
+  monsterHint: 1
+  artwork: {fileID: 1272453032, guid: b0d26353e786fcd4c8c380be16507754, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 1
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 5
+      codeLine: removestack:[[lastDamage]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 34
+        conditonOperator: 3
+        targetValue: 
+        ignoreForDisplay: 0
+    - cardTrigger: 51
+      codeLine: removestack:[[varValue]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 24
+      codeLine: addstack:5*[[difficulty]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 24
+      codeLine: addstack:20
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: energy:STR:[[enchantmentStacks]]/5
+      referenceCard: []
+      referenceStatus: {fileID: 11400000, guid: 75242352e266ef7408144eacc9f511ca,
+        type: 2}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: addstack:-99
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 18
+      codeLine: addstack:5*[[difficulty]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 18
+      codeLine: addstack:20
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []

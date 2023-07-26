@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Swiss Weapon
+  m_EditorClassIdentifier: 
+  ID: 939893
+  expansion: 1
+  description: Use your weaponpower to replace your Basic Attacks with a different
+    weapon. They keep all upgrades.
+  powerImage: {fileID: 6209302994602652462, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: 4b2c781330c4d31489a9afc958f2b010, type: 3}
+  effectList:
+  - cardTrigger: 38
+    codeLine: choosebasic
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 2
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

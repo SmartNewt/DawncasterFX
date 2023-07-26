@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Ward
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 0
+    effectTrigger: 0
+    description: Whenever you gain an Affliction, prevent that Affliction and lower
+      your Ward by 1 instead. Fades at the start of the turn.
+    statusIcon: {fileID: 8835890468404032026, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4287938560
+    effectColor:
+      serializedVersion: 2
+      rgba: 4278244095
+    clip: {fileID: 8300000, guid: 6ab92047778df6f45866231631c505f8, type: 3}
+    triggerClip: {fileID: 8300000, guid: 6ab92047778df6f45866231631c505f8, type: 3}
+    clearAt: 19
+    lowerInsteadOfClear: 0
+    excludeFromRandom: 0
+    canNotBeIncreased: 0
+    triggerOnClear: 0

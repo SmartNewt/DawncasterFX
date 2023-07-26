@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Conversion
+  m_EditorClassIdentifier: 
+  cardID: 951681
+  cardDescription: 'Convert your energy to HOLY energy, then gain HOLY.
+
+    Conjure
+    a Virtue.'
+  cardexpansion: 2
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 2
+  monsterHint: 4
+  artwork: {fileID: 3497953008651657206, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3, type: 3}
+  audioClip: {fileID: 8300000, guid: cd610220c6e102c43911e857cacc13c6, type: 3}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 1
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 1
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords:
+  - holy
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addstack:[[allEnergy]]+1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: removeenergy:ALL:0
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: conjurerandomfree:1:all:keyword=virtue
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 0
+    showIcon: 0
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 44
+      codeLine: energy:HOLY:[[enchantmentStacks]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 44
+      codeLine: removeenchant:this
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []

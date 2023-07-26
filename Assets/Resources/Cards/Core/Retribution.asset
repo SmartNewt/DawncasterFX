@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Retribution
+  m_EditorClassIdentifier: 
+  cardID: 811274
+  cardDescription: 'Deal [damage:6] damage.
+
+    Gain <b>Reflect</b> equal to the
+    damage dealt. <b>Lifedrain</b> while you have an Affliction.'
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 4
+  cardCategory: 0
+  cardRarity: 2
+  monsterHint: 4
+  artwork: {fileID: 8826778712107202871, guid: d805840d6a905d746a4553761b8f43e8, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 2
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  cardKeywords:
+  - lifedrain
+  - affliction
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:6:truefyre
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: bless:[[lastDamage]]
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 010d4ee7aad4c5d4e840f054a72c761f, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: heal:[[lastDamage]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 25
+      conditonOperator: 1
+      targetValue: '[[myTotalAfflictions]]:0'
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

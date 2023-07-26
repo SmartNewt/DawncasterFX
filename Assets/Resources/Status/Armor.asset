@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 2
+    effectTrigger: 6
+    description: When dealt damage, take 1 less damage per stack of <b>Armor</b>.
+      <b>Armor</b> fades at the start of the turn.
+    statusIcon: {fileID: -1208487963443353742, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4287137941
+    effectColor:
+      serializedVersion: 2
+      rgba: 4290687135
+    clip: {fileID: 8300000, guid: 87e4ceec1a525f9428520c284dfd6ffa, type: 3}
+    triggerClip: {fileID: 8300000, guid: d86235543aaccb642b2aafd841b50bed, type: 3}
+    clearAt: 19
+    lowerInsteadOfClear: 0
+    excludeFromRandom: 0
+    canNotBeIncreased: 0
+    triggerOnClear: 0

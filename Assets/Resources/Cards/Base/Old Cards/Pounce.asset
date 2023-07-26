@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Pounce
+  m_EditorClassIdentifier: 
+  cardID: 741983
+  cardDescription: "Deal [damage:8] damage and \ninflict <b>3 Bleeding</b>.\n<b>Draw:
+    </b>Free if the target is at full health."
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 1
+  monsterHint: 0
+  artwork: {fileID: 6725260867101788387, guid: 70d4c82c2b3e21b4ea5fffd7aa38abbd, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 2
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 1
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:8
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: inflict:3
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: eafac5d1bf3153b4bbcfa5f90ca4832c, type: 2}
+    effectConditions: []
+  - cardTrigger: 12
+    codeLine: cost:this:ALL:99
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 2
+      conditonOperator: 4
+      targetValue: 99
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

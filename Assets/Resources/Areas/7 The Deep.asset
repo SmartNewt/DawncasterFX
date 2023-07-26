@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 7 The Deep
+  m_EditorClassIdentifier: 
+  ID: 71
+  expansion: 1
+  areaName: The Deep
+  areaDescription: The sprawling network of tunnels known as 'The Deep' once was
+    a sprawling, living city deep underneath the Shattered Realms.
+  shortDescription: Travel to this cursed place below the surface.
+  areaLevel: 7
+  areaBGName: DT_BG_The_Deep
+  backgroundTrack: cursedcoast_loop_ogg__normalised
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 6959431
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 1903126
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4280624570
+  areaSpecificEvents: []
+  areaOpportunities: []
+  miniBosses:
+  - {fileID: 11400000, guid: 2001eadf94290604b89b42096ec92f91, type: 2}
+  areaEnemies:
+  - {fileID: 11400000, guid: 3f92e1424a79b7646b19838d496a6801, type: 2}
+  - {fileID: 11400000, guid: 6591d51f75badda43b8f241f7da797fe, type: 2}
+  - {fileID: 11400000, guid: 14f5d85f1f0c6b64da310722f0f02f29, type: 2}
+  - {fileID: 11400000, guid: e48b66012da785241a9980ffd9c0cf4d, type: 2}
+  areaEffects: []
+  areaSpecialStart: 0
+  enemies: 6
+  opportunities: 4
+  campfires: 2
+  npcs: 5
+  shrines: 2
+  showQuestpanel: 1
+  questTitle: Find the Dark Citadel
+  questImage: {fileID: 21300000, guid: 5a98f9329d21d614085ea69a1bdb651e, type: 3}
+  questDescription: You descend into the uncharted network of tunnels and caverns
+    known only as 'The Deep'. If the priest is right, these tunnels could lead straight
+    into the Black Citadel itself, but who knows what dangers lurk below the surface
+    of the Shattered Realms...
+  forcedQuestFlags: []
+  boss: {fileID: 11400000, guid: be7d5ad87e5000b438335056cd6fdd1f, type: 2}
+  bossIntro: 0
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: 
+  bossAppearingLine: Stay away from me trrrrrreasures!
+  bossDefeatedLine: 
+  questEvents:
+  - {fileID: 11400000, guid: 14f5d85f1f0c6b64da310722f0f02f29, type: 2}
+  - {fileID: 11400000, guid: a8445aa72ebe80949a642d7f71094126, type: 2}
+  - {fileID: 11400000, guid: e48b66012da785241a9980ffd9c0cf4d, type: 2}
+  openingText: {fileID: 0}
+  closingText: {fileID: 4900000, guid: 37f5a3cebdece674c95fe008d42ac642, type: 3}

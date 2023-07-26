@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Dragon Punch
+  m_EditorClassIdentifier: 
+  cardID: 281673
+  cardDescription: "Deal [damage:[[tempValue]]+1] damage twice. \nAt the start of
+    the turn, increase the damage by your <b>Focus</b>."
+  cardexpansion: 3
+  cosmeticexpansion: 0
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: -1198233909524432196, guid: 5aba06cbb634eb14ba0cd54dd087725f,
+    type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 1
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 1
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 1
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  cardKeywords:
+  - dragon
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:[[tempValue]]+1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: damage:[[tempValue]]+1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addtempvalue:-[[tempValue]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 19
+    codeLine: addtempvalue:[[myFocus]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 5
+      conditonOperator: 2
+      targetValue: focus
+      ignoreForDisplay: 1
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Siren Call
+  m_EditorClassIdentifier: 
+  cardID: 167049
+  cardDescription: Add a Beguile card to the opposing discard pile for every point
+    of your energy.
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 7
+  cardCategory: 0
+  cardRarity: 4
+  monsterHint: 1
+  artwork: {fileID: -7565308724260480746, guid: 84c01358ed6eff0409b3e47e515d1320,
+    type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 1
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: addcard:[[allEnergy]]:false
+    referenceCard:
+    - {fileID: 11400000, guid: fe98628f5f4fbf94b8a9727ca8a457e3, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: energy:STR:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 1
+      conditonOperator: 5
+      targetValue: 50
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

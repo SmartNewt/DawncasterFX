@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769cabc4fde7cbc45aab79dc754055ab, type: 3}
+  m_Name: Riphide Banner
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 8
+  description: "Tear it down to lower Battle Momentum.\r"
+  eventImage: {fileID: 21300000, guid: 8612f74bd93073f44977581cb0476d73, type: 3}
+  overlayImage: {fileID: 21300000, guid: 435416f361c3c254e9e33997baeb01de, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  textFile: {fileID: 4900000, guid: dfdcd902090ce2b499dcab5464319a3a, type: 3}
+  rarity: 0
+  minimumLevel: 0
+  maxLevel: 0
+  unique: 0

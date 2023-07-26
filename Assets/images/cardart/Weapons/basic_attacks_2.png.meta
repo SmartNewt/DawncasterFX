@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 5cf67046cfca1294da4d4aa117f97afc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: holy_staff
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b50d64198a20848afae5e98e8c5e16
+      internalID: -1172219871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tomahawks
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ffd68123c843246a3df9f4ed876ccd
+      internalID: 770731648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwing_knives
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd458737353d0640ac5605822cb644c
+      internalID: 2097679751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tome_of_purity
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefcceb9d3d052242b4104b0f1beedbd
+      internalID: 1621734514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35bae89140b505439d28f05c3a59987
+      internalID: -1284489331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towershield
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f03f1bbd98930846a7600b875e8b35a
+      internalID: -1840065393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellforgedaxe
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2f965a87e9984bbc9c3d285683f30
+      internalID: -625657290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staffofthunder
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d61b89bac098647b177d39381e0457
+      internalID: -1277329869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluescythe
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2346
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ded35f68b4e7b74187fe3672b371457
+      internalID: -1726559882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goldstrike
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2346
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5b17be771654645b4bcdf5968b7ecb
+      internalID: -1704938949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2346
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eec286a35f2514991c48ccdd855ed4
+      internalID: 1551350648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexglaive
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3e3a0586329664cade02eb834c9dc4
+      internalID: 461152171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder_axe
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2346
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0709a130a3df844b64dfd61043662e
+      internalID: 584292418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trancor_weap
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1465
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7f34ff7c161f344b75f996a05e7f6d
+      internalID: -1647826193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: majatome_axe
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1465
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bae892728021384ab01824f20948c4d
+      internalID: -425152570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragonWraps
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251b7ca89a056784c8bd6eed175ce148
+      internalID: 1064661086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritualTotem
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2dd7dc9b9843e43a5fd681e79fac5f
+      internalID: -1597080858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hiddenBlade
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc27eabf3dcc54b83cc870e558c808
+      internalID: -2056903078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiantLance
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e6a66bf129163449b34029f012eaa2
+      internalID: 971151738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinMaul_att
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ef557d2f5a0f74ca9cea7779e2a0f6
+      internalID: 639307484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinMaul_def
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b396572411f4f4e80e7ec0f261f9ee
+      internalID: 1653225284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spectralWand
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9533e7933f8534484b318d69ed700c
+      internalID: 1363847610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platedmaul
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e39038578b2d4f9c7bf8b4b1a378d
+      internalID: 32503268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      basic_attacks_2_10: 1118981884
+      basic_attacks_2_11: 96956304
+      basic_attacks_2_12: 1890998925
+      basic_attacks_2_13: 1200962895
+      basic_attacks_2_14: -626498841
+      basic_attacks_2_15: -880140375
+      basic_attacks_2_16: 193514927
+      basic_attacks_2_17: -747897470
+      basic_attacks_2_18: 1581674416
+      basic_attacks_2_19: 1706405460
+      basic_attacks_2_20: -1809365457
+      basic_attacks_2_21: 1128283759
+      basic_attacks_2_22: -1278239856
+      basic_attacks_2_23: 206636791
+      basic_attacks_2_24: 1487703486
+      basic_attacks_2_25: 1602722637
+      basic_attacks_2_26: -244410962
+      basic_attacks_2_27: -57953357
+      basic_attacks_2_28: -815621584
+      basic_attacks_2_29: 328205038
+      basic_attacks_2_30: -576151819
+      basic_attacks_2_31: 884102347
+      basic_attacks_2_7: 1960699458
+      basic_attacks_2_8: 1569372882
+      basic_attacks_2_9: 75296630
+      bluescythe: -1224064867
+      dragonWraps: 1064661086
+      goldstrike: -1809224005
+      hellforgedaxe: -625657290
+      hexglaive: 461152171
+      hiddenBlade: -2056903078
+      holy_staff: -1172219871
+      majatome_axe: -425152570
+      monolith: 219547587
+      platedmaul: 32503268
+      radiantLance: 971151738
+      ritualTotem: -1597080858
+      scythe: -1284489331
+      shredder_axe: 584292418
+      spectralWand: 1363847610
+      staffofthunder: -1277329869
+      throwing_knives: 2097679751
+      tomahawks: 770731648
+      tome_of_purity: 1621734514
+      towershield: -1840065393
+      trancor_weap: -1647826193
+      twinMaul_att: 639307484
+      twinMaul_def: 1653225284
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: cards
+  assetBundleVariant: 

@@ -1,0 +1,1734 @@
+fileFormatVersion: 2
+guid: 82dda3218e942464fab6f16710038027
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1175468692928547468
+    second: cards_metamorphosis_2_0
+  - first:
+      213: 8502737919931107077
+    second: cards_metamorphosis_2_1
+  - first:
+      213: -219284958167127600
+    second: cards_metamorphosis_2_2
+  - first:
+      213: 7925194720013190311
+    second: cards_metamorphosis_2_3
+  - first:
+      213: -6375959132607403960
+    second: cards_metamorphosis_2_4
+  - first:
+      213: 9031141045580459210
+    second: cards_metamorphosis_2_5
+  - first:
+      213: -1506134673423276479
+    second: cards_metamorphosis_2_6
+  - first:
+      213: -544295920464477068
+    second: cards_metamorphosis_2_7
+  - first:
+      213: -1933399963063860141
+    second: cards_metamorphosis_2_8
+  - first:
+      213: -337073738663663583
+    second: cards_metamorphosis_2_9
+  - first:
+      213: -266230239833012691
+    second: cards_metamorphosis_2_10
+  - first:
+      213: 1577306389590211579
+    second: cards_metamorphosis_2_11
+  - first:
+      213: 7999602801095727557
+    second: cards_metamorphosis_2_12
+  - first:
+      213: -6571296484255660426
+    second: cards_metamorphosis_2_13
+  - first:
+      213: 2917072278400123121
+    second: cards_metamorphosis_2_14
+  - first:
+      213: -1867885249027960098
+    second: cards_metamorphosis_2_15
+  - first:
+      213: -4911261497507759257
+    second: cards_metamorphosis_2_16
+  - first:
+      213: -590416396843876533
+    second: cards_metamorphosis_2_17
+  - first:
+      213: 5952697892135597611
+    second: cards_metamorphosis_2_18
+  - first:
+      213: -6069216771661135332
+    second: cards_metamorphosis_2_19
+  - first:
+      213: -992016055949885203
+    second: cards_metamorphosis_2_20
+  - first:
+      213: 1290948200654271607
+    second: cards_metamorphosis_2_21
+  - first:
+      213: 1380006229768117749
+    second: cards_metamorphosis_2_22
+  - first:
+      213: -6245325787075534172
+    second: cards_metamorphosis_2_23
+  - first:
+      213: -7415307541126622501
+    second: cards_metamorphosis_2_24
+  - first:
+      213: 7161945819200570508
+    second: cards_metamorphosis_2_25
+  - first:
+      213: -8192600768270114066
+    second: cards_metamorphosis_2_26
+  - first:
+      213: 7255347048518391108
+    second: cards_metamorphosis_2_27
+  - first:
+      213: 8675344564724885191
+    second: cards_metamorphosis_2_28
+  - first:
+      213: 166624818818609725
+    second: cards_metamorphosis_2_29
+  - first:
+      213: 2700637764693276322
+    second: cards_metamorphosis_2_30
+  - first:
+      213: -4192848212736899395
+    second: cards_metamorphosis_2_31
+  - first:
+      213: 6950080794225013451
+    second: cards_metamorphosis_2_32
+  - first:
+      213: 5391859617832065303
+    second: cards_metamorphosis_2_33
+  - first:
+      213: -8991726194692057417
+    second: cards_metamorphosis_2_34
+  - first:
+      213: -1336994553907132109
+    second: cards_metamorphosis_2_35
+  - first:
+      213: 8137830149717113737
+    second: cards_metamorphosis_2_36
+  - first:
+      213: -5400867678927159624
+    second: cards_metamorphosis_2_37
+  - first:
+      213: 6242437474480315694
+    second: cards_metamorphosis_2_38
+  - first:
+      213: -4722785243901242976
+    second: cards_metamorphosis_2_39
+  - first:
+      213: -4586291317009191097
+    second: cards_metamorphosis_2_40
+  - first:
+      213: -3657941746581814509
+    second: cards_metamorphosis_2_41
+  - first:
+      213: 1669194234321624790
+    second: cards_metamorphosis_2_42
+  - first:
+      213: 3335707871366554084
+    second: cards_metamorphosis_2_43
+  - first:
+      213: -2304181368834544584
+    second: cards_metamorphosis_2_44
+  - first:
+      213: -6554472116957588054
+    second: cards_metamorphosis_2_45
+  - first:
+      213: -242923453265390626
+    second: cards_metamorphosis_2_46
+  - first:
+      213: -7091981356361850580
+    second: cards_metamorphosis_2_47
+  - first:
+      213: 8980372848422076989
+    second: cards_metamorphosis_2_48
+  - first:
+      213: -2358790849711828022
+    second: cards_metamorphosis_2_49
+  - first:
+      213: -2823482767238666233
+    second: cards_metamorphosis_2_50
+  - first:
+      213: 2496553132839596104
+    second: cards_metamorphosis_2_51
+  - first:
+      213: 3013328762076342006
+    second: cards_metamorphosis_2_52
+  - first:
+      213: 6234096699674827902
+    second: cards_metamorphosis_2_53
+  - first:
+      213: -4274304223404320414
+    second: cards_metamorphosis_2_54
+  - first:
+      213: 1613527097447096881
+    second: cards_metamorphosis_2_55
+  - first:
+      213: -7113986325074092121
+    second: cards_metamorphosis_2_56
+  - first:
+      213: 2678824384462511966
+    second: cards_metamorphosis_2_57
+  - first:
+      213: 167177237199005288
+    second: cards_metamorphosis_2_58
+  - first:
+      213: -1795107306402330049
+    second: cards_metamorphosis_2_59
+  - first:
+      213: 2161867769275674110
+    second: cards_metamorphosis_2_60
+  - first:
+      213: 5849999509670881285
+    second: cards_metamorphosis_2_61
+  - first:
+      213: 2280697493472872384
+    second: cards_metamorphosis_2_62
+  - first:
+      213: 1065802287741423015
+    second: cards_metamorphosis_2_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a499e5c8a105010800000000000000
+      internalID: 1175468692928547468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507ccb7b61bcff570800000000000000
+      internalID: 8502737919931107077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9acdb0e71f4fcf0800000000000000
+      internalID: -219284958167127600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4003ebb92fbfd60800000000000000
+      internalID: 7925194720013190311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848278e33fa0487a0800000000000000
+      internalID: -6375959132607403960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce5429eee055d70800000000000000
+      internalID: 9031141045580459210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e4be8e72291be0800000000000000
+      internalID: -1506134673423276479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47445008eb54278f0800000000000000
+      internalID: -544295920464477068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35443d82afe2b25e0800000000000000
+      internalID: -1933399963063860141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e6d77839725bf0800000000000000
+      internalID: -337073738663663583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d264946e1092e4cf0800000000000000
+      internalID: -266230239833012691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb7a7dedc7b3e510800000000000000
+      internalID: 1577306389590211579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9d7872d5c440f60800000000000000
+      internalID: 7999602801095727557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6760b2ee9a01ec4a0800000000000000
+      internalID: -6571296484255660426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0cd2a28c58b7820800000000000000
+      internalID: 2917072278400123121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21f723340f316e0800000000000000
+      internalID: -1867885249027960098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b3ff160b1b7dbb0800000000000000
+      internalID: -4911261497507759257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ffd8c4a6b6ec7f0800000000000000
+      internalID: -590416396843876533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2675f3b13b3c9250800000000000000
+      internalID: 5952697892135597611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128b44908fc5cba0800000000000000
+      internalID: -6069216771661135332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08f9d27a6ab32f0800000000000000
+      internalID: -992016055949885203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7747d6b7c8e5ae110800000000000000
+      internalID: 1290948200654271607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd9729ba54c62310800000000000000
+      internalID: 1380006229768117749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2a6ca29452459a0800000000000000
+      internalID: -6245325787075534172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd25fde4419871990800000000000000
+      internalID: -7415307541126622501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c844b06e6c7546360800000000000000
+      internalID: 7161945819200570508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2eaace1090e4e80800000000000000
+      internalID: -8192600768270114066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451e1d33bb20b460800000000000000
+      internalID: 7255347048518391108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6ea8ceae3056870800000000000000
+      internalID: 8675344564724885191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d327270d368ff4200800000000000000
+      internalID: 166624818818609725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63c870db79a7520800000000000000
+      internalID: 2700637764693276322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db68fa2e3c200d5c0800000000000000
+      internalID: -4192848212736899395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2fb04c8a5a37060800000000000000
+      internalID: 6950080794225013451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71957af41cbb3da40800000000000000
+      internalID: 5391859617832065303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b61ec78aa8f63380800000000000000
+      internalID: -8991726194692057417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339cbb3798a027de0800000000000000
+      internalID: -1336994553907132109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b3a54b7616fe070800000000000000
+      internalID: 8137830149717113737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be78a606734c05b0800000000000000
+      internalID: -5400867678927159624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d5cf62fc791a650800000000000000
+      internalID: 6242437474480315694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a15fc2d7db457eb0800000000000000
+      internalID: -4722785243901242976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f653da8583a50c0800000000000000
+      internalID: -4586291317009191097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134be1bc516c3dc0800000000000000
+      internalID: -3657941746581814509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deded5ff4b2a2710800000000000000
+      internalID: 1669194234321624790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1274bb2a0da4e20800000000000000
+      internalID: 3335707871366554084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c2b8cc047e500e0800000000000000
+      internalID: -2304181368834544584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa55a823656d905a0800000000000000
+      internalID: -6554472116957588054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed351840866f0acf0800000000000000
+      internalID: -242923453265390626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21eb540888349d90800000000000000
+      internalID: -7091981356361850580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32c2cc8681b0ac70800000000000000
+      internalID: 8980372848422076989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac31c773834e34fd0800000000000000
+      internalID: -2358790849711828022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7086d45f169f0d8d0800000000000000
+      internalID: -2823482767238666233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fac5d8d985a220800000000000000
+      internalID: 2496553132839596104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f627073b8e71d920800000000000000
+      internalID: 3013328762076342006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c9d8f2be5f38650800000000000000
+      internalID: 6234096699674827902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269980e74fe9ea4c0800000000000000
+      internalID: -4274304223404320414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_55
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1322dc6a856646610800000000000000
+      internalID: 1613527097447096881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afd8fcf02b064d90800000000000000
+      internalID: -7113986325074092121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fda8ba5981d2520800000000000000
+      internalID: 2678824384462511966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86627cdbfcee15200800000000000000
+      internalID: 167177237199005288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a4e2c6a6f7617e0800000000000000
+      internalID: -1795107306402330049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdea07384f700e10800000000000000
+      internalID: 2161867769275674110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_61
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50864263f8f5f2150800000000000000
+      internalID: 5849999509670881285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_62
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c70392694aa6af10800000000000000
+      internalID: 2280697493472872384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_metamorphosis_2_63
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad40a9a88d7ace00800000000000000
+      internalID: 1065802287741423015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cards_metamorphosis_2_6: -1506134673423276479
+      cards_metamorphosis_2_41: -3657941746581814509
+      cards_metamorphosis_2_2: -219284958167127600
+      cards_metamorphosis_2_0: 1175468692928547468
+      cards_metamorphosis_2_14: 2917072278400123121
+      cards_metamorphosis_2_9: -337073738663663583
+      cards_metamorphosis_2_23: -6245325787075534172
+      cards_metamorphosis_2_35: -1336994553907132109
+      cards_metamorphosis_2_22: 1380006229768117749
+      cards_metamorphosis_2_59: -1795107306402330049
+      cards_metamorphosis_2_24: -7415307541126622501
+      cards_metamorphosis_2_11: 1577306389590211579
+      cards_metamorphosis_2_48: 8980372848422076989
+      cards_metamorphosis_2_45: -6554472116957588054
+      cards_metamorphosis_2_61: 5849999509670881285
+      cards_metamorphosis_2_15: -1867885249027960098
+      cards_metamorphosis_2_44: -2304181368834544584
+      cards_metamorphosis_2_53: 6234096699674827902
+      cards_metamorphosis_2_52: 3013328762076342006
+      cards_metamorphosis_2_4: -6375959132607403960
+      cards_metamorphosis_2_30: 2700637764693276322
+      cards_metamorphosis_2_54: -4274304223404320414
+      cards_metamorphosis_2_36: 8137830149717113737
+      cards_metamorphosis_2_37: -5400867678927159624
+      cards_metamorphosis_2_29: 166624818818609725
+      cards_metamorphosis_2_12: 7999602801095727557
+      cards_metamorphosis_2_20: -992016055949885203
+      cards_metamorphosis_2_19: -6069216771661135332
+      cards_metamorphosis_2_42: 1669194234321624790
+      cards_metamorphosis_2_13: -6571296484255660426
+      cards_metamorphosis_2_39: -4722785243901242976
+      cards_metamorphosis_2_7: -544295920464477068
+      cards_metamorphosis_2_34: -8991726194692057417
+      cards_metamorphosis_2_26: -8192600768270114066
+      cards_metamorphosis_2_17: -590416396843876533
+      cards_metamorphosis_2_40: -4586291317009191097
+      cards_metamorphosis_2_49: -2358790849711828022
+      cards_metamorphosis_2_25: 7161945819200570508
+      cards_metamorphosis_2_31: -4192848212736899395
+      cards_metamorphosis_2_8: -1933399963063860141
+      cards_metamorphosis_2_38: 6242437474480315694
+      cards_metamorphosis_2_58: 167177237199005288
+      cards_metamorphosis_2_47: -7091981356361850580
+      cards_metamorphosis_2_27: 7255347048518391108
+      cards_metamorphosis_2_57: 2678824384462511966
+      cards_metamorphosis_2_5: 9031141045580459210
+      cards_metamorphosis_2_51: 2496553132839596104
+      cards_metamorphosis_2_21: 1290948200654271607
+      cards_metamorphosis_2_62: 2280697493472872384
+      cards_metamorphosis_2_63: 1065802287741423015
+      cards_metamorphosis_2_18: 5952697892135597611
+      cards_metamorphosis_2_1: 8502737919931107077
+      cards_metamorphosis_2_56: -7113986325074092121
+      cards_metamorphosis_2_33: 5391859617832065303
+      cards_metamorphosis_2_50: -2823482767238666233
+      cards_metamorphosis_2_43: 3335707871366554084
+      cards_metamorphosis_2_10: -266230239833012691
+      cards_metamorphosis_2_3: 7925194720013190311
+      cards_metamorphosis_2_16: -4911261497507759257
+      cards_metamorphosis_2_46: -242923453265390626
+      cards_metamorphosis_2_28: 8675344564724885191
+      cards_metamorphosis_2_32: 6950080794225013451
+      cards_metamorphosis_2_60: 2161867769275674110
+      cards_metamorphosis_2_55: 1613527097447096881
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: cards
+  assetBundleVariant: 

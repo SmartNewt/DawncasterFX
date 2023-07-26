@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Serena Hellspark
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 4
+  description: You wouldn't hurt me, would you?
+  eventImage: {fileID: 21300000, guid: f8e2231da634c6f418f7c11728ea521b, type: 3}
+  overlayImage: {fileID: 21300000, guid: 9ebd8e9775304ef4faf85310d57a55e1, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4286580561
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4285545471
+  battleObject: rig_succubus
+  battleMotion: {fileID: 7400000, guid: af5333fcf84c07744ac01fe6fe0bcf29, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 132
+  energyPerTurn: 3
+  cardsPerTurn: 2
+  maximumHandSize: 5
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 1803616b8a293ea4391c0f46410cea7d, type: 2}
+  enchantmentAura: {fileID: 11400000, guid: 1803616b8a293ea4391c0f46410cea7d, type: 2}
+  deckList:
+  - {fileID: 11400000, guid: 6db39adcc5b781d4d9ffc4dfcc806f79, type: 2}
+  - {fileID: 11400000, guid: cc4a270a6bc416241bd53c8e52418e0a, type: 2}
+  - {fileID: 11400000, guid: 97fbd4004bf99954eb3b14c8c2f2a570, type: 2}
+  - {fileID: 11400000, guid: a0ef8b0d3e0a2114ea94444a1e520d65, type: 2}
+  combatMusic: 
+  combatStart: I'll just have to turn you into my new puppet!
+  combatDeath: That really hurts!
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

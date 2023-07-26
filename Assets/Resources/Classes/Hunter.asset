@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946aa6d97cd4134478a8cb540b82c1cb, type: 3}
+  m_Name: Hunter
+  m_EditorClassIdentifier: 
+  className: Hunter
+  description: Brutal savages who inflict bloody devastation to anyone in their path.
+  classImage: {fileID: 7697784012345669799, guid: 9091c099ad189ad4d9193ba9d54064ba,
+    type: 3}
+  classColor: {r: 0.7075472, g: 0.33715096, b: 0.1702118, a: 1}
+  associatedBanner: 10
+  portraits:
+  - {fileID: 7697784012345669799, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  - {fileID: 7812310523047350762, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: d62f32953f3f1d24ba9e08f0deac4f15, type: 2}
+  talents:
+  - {fileID: 11400000, guid: a406489abac5e2e4da038a6357bc20cb, type: 2}
+  startingCards:
+  - {fileID: 11400000, guid: 3a2b546a2e6fc0d4dbcefcf418f5cdc7, type: 2}
+  dexterity: 1
+  intellect: 0
+  strength: 1
+  progressList:
+  - {fileID: 11400000, guid: 335d685792ef89d4786872cfca12274b, type: 2}
+  - {fileID: 11400000, guid: 48b4fe7db95be954abdd92099f642416, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 75af16a53a6837844993e703c7e76a50, type: 2}
+  - {fileID: 11400000, guid: b3f6f60b5a5e29f43bf1d8c4e5eb3eaa, type: 2}
+  - {fileID: 11400000, guid: 5bba37728b50ae143b169eaab73be95a, type: 2}
+  - {fileID: 11400000, guid: 5645ad875ab2267458cc04aaf70fa130, type: 2}
+  - {fileID: 11400000, guid: acdf3259d352cc64c95d03b395878e59, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: e7a91ae879217254ea543d87109eba5e, type: 2}
+  - {fileID: 11400000, guid: 3861636b265103b4b843ca9889a8c060, type: 2}
+  - {fileID: 11400000, guid: c6998154a8a5fff49b9c98c47ffdfb0f, type: 2}
+  - {fileID: 11400000, guid: d1a6fc6dfec9ba44c898e56a067071af, type: 2}
+  - {fileID: 11400000, guid: a53cd4f52e38634478f04dd1ecc4a8d6, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 8490b6629595c004fb026cd54048c2ad, type: 2}
+  - {fileID: 11400000, guid: 0591394f8e00b674ba4ae207a487e9e6, type: 2}
+  - {fileID: 11400000, guid: c37c544a4ffe73144ae341840538dd14, type: 2}
+  - {fileID: 11400000, guid: 2f7f016d8eee99b4da27cd70730befc7, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: a0952ab1b0f80814381b613df0f5c3a6, type: 2}
+  - {fileID: 11400000, guid: 6dfb81808023a9a4ab9fac345398b07a, type: 2}
+  - {fileID: 11400000, guid: cede01fffa7209d4da7f902fef6f9e77, type: 2}
+  - {fileID: 11400000, guid: c54bf8fbe96d84149b5e9f127cae940e, type: 2}
+  - {fileID: 11400000, guid: 12e8eac9b54d7514bbd7e01701d518d8, type: 2}
+  - {fileID: 11400000, guid: 6da48e921d01e8948b371406006a1c4d, type: 2}
+  - {fileID: 11400000, guid: 14a312350307da14689b74f475287e88, type: 2}
+  - {fileID: 11400000, guid: 01a8b59d8b2f05e4a9bac69477e4b510, type: 2}
+  - {fileID: 11400000, guid: ace42ab2f71be6249befa56c11a0651a, type: 2}
+  - {fileID: 11400000, guid: 15512be398be937448811d76dc27a428, type: 2}
+  - {fileID: 11400000, guid: 7c1cde5f0463b9847b43e3f33be9ae05, type: 2}
+  - {fileID: 11400000, guid: e4b6affa3742f274c86133a0ac7e8a68, type: 2}
+  - {fileID: 11400000, guid: d1a6fc6dfec9ba44c898e56a067071af, type: 2}
+  - {fileID: 11400000, guid: ee2e3f9e539efe94eb2085ee2bb7cfb6, type: 2}
+  - {fileID: 11400000, guid: cfdf32b302cb9a641b51414bb3e14acc, type: 2}

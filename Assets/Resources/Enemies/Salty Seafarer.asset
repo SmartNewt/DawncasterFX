@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Salty Seafarer
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: This heavy handed pirate staggers your way
+  eventImage: {fileID: 21300000, guid: c28f72d9c3b932c4cb4621b36df4e27d, type: 3}
+  overlayImage: {fileID: 21300000, guid: 9eb386d146c51e747b027f58d5e0fa6e, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_salty_seafarer
+  battleMotion: {fileID: 7400000, guid: 695926800a7ad9b4893cc96d2de03e2b, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 03000000
+  maxHealth: 92
+  energyPerTurn: 2
+  cardsPerTurn: 2
+  maximumHandSize: 2
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 76b12d4465a37fc459b63a26f851a012, type: 2}
+  - {fileID: 11400000, guid: eb88bb2c3465aa64190ece3d9d61e9cb, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 89a7af78a02896a4db1debca7676acd5, type: 2}
+  - {fileID: 11400000, guid: 9403d00528d0b9949b03f549ebe05604, type: 2}
+  - {fileID: 11400000, guid: 783392f7e1736c04f8d1c2b9068a5948, type: 2}
+  combatMusic: 
+  combatStart: Finally, a challenge!
+  combatDeath: This was just... round one.
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

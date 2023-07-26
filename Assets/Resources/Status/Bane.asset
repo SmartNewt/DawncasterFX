@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Bane
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 1
+    effectTrigger: 0
+    description: Whenever you gain an Affliction, gain an additional stack for each
+      point of Bane.
+    statusIcon: {fileID: -6564295873917234787, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4280954075
+    effectColor:
+      serializedVersion: 2
+      rgba: 4286986976
+    clip: {fileID: 8300000, guid: b7cdd803aced5db44b3282bda325f937, type: 3}
+    triggerClip: {fileID: 0}
+    clearAt: 0
+    lowerInsteadOfClear: 0
+    excludeFromRandom: 1
+    canNotBeIncreased: 0
+    triggerOnClear: 0

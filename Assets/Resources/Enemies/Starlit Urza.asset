@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Starlit Urza
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 9
+  description: A large, translucent bear rushes towards you.
+  eventImage: {fileID: 21300000, guid: af70d7adbdd807947bc3c7e9cfa54353, type: 3}
+  overlayImage: {fileID: 21300000, guid: bbc45a0651c30d4419394352096819a1, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4294930527
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4294945954
+  battleObject: rig_dc_spiritbear_urza
+  battleMotion: {fileID: 7400000, guid: ccf9992f7448a11469e48ecf482cb279, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 04000000
+  maxHealth: 62
+  energyPerTurn: 3
+  cardsPerTurn: 2
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 5a938e17db98f5941af3c9db65e161f3, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: be4ca1b68bef7a34a92e605f573378be, type: 2}
+  - {fileID: 11400000, guid: 1671f44da7a636348b86677eb1577b82, type: 2}
+  - {fileID: 11400000, guid: d9fd1338f7f728040af255a010a4e63d, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

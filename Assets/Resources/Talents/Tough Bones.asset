@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Tough Bones
+  m_EditorClassIdentifier: 
+  ID: 990237
+  expansion: 1
+  description: You are immune to being <b>Dazed</b> and <b>Stunned</b>.
+  powerImage: {fileID: 3520948442983443516, guid: 84c01358ed6eff0409b3e47e515d1320,
+    type: 3}
+  tier: 1
+  flavortext: '"Huh? Was that supposed to do something?"'
+  audioClip: {fileID: 0}
+  effectList:
+  - cardTrigger: 0
+    codeLine: immune
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: f1153ab2ab9d7b64aacd5b02e2a83ca2, type: 2}
+    effectConditions: []
+  - cardTrigger: 0
+    codeLine: immune
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 75242352e266ef7408144eacc9f511ca, type: 2}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 1

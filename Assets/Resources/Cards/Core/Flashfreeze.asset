@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Flashfreeze
+  m_EditorClassIdentifier: 
+  cardID: 408421
+  cardDescription: Inflict <b>3 Frozen</b>.
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 1
+  cardCategory: 0
+  cardRarity: 1
+  monsterHint: 0
+  artwork: {fileID: 8061286903174803721, guid: 2954f7e21e2528e4eb44f9b9d9c909d0, type: 3}
+  audioClip: {fileID: 8300000, guid: e6180d4ea7faa544994801e836d0436f, type: 3}
+  colorCard: 2
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 1
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: inflict:3
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 294c4adb8d48b3a4e858d0e35b790289, type: 2}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

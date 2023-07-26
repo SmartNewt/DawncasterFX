@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946aa6d97cd4134478a8cb540b82c1cb, type: 3}
+  m_Name: Arcanist
+  m_EditorClassIdentifier: 
+  className: Arcanist
+  description: Master the elements or wield the Arcane as forces of destruction.
+  classImage: {fileID: 6020443904116654427, guid: 9091c099ad189ad4d9193ba9d54064ba,
+    type: 3}
+  classColor: {r: 0.15686187, g: 0.4510168, b: 0.7075472, a: 1}
+  associatedBanner: 2
+  portraits:
+  - {fileID: 6020443904116654427, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  - {fileID: -8647439200131738775, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: f4fd050e95cfb19449928021462afb0b, type: 2}
+  talents:
+  - {fileID: 11400000, guid: b21760dae4f73264995f7f89c8cb1087, type: 2}
+  startingCards:
+  - {fileID: 11400000, guid: 172f0b9c6c6cf6c4db1442a61d27e5cd, type: 2}
+  dexterity: 0
+  intellect: 2
+  strength: 0
+  progressList:
+  - {fileID: 11400000, guid: 3bf496bcc59bc1d4faa2709affcd8aa0, type: 2}
+  - {fileID: 11400000, guid: 2e83007702af49a4a98a72fd824a9948, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: e952fdd0b12d9784fadc31341c6077df, type: 2}
+  - {fileID: 11400000, guid: cb66f7918b33a7d43a22f7b7d7efb764, type: 2}
+  - {fileID: 11400000, guid: 88ecd72133caa7c43b21cfaa91b2fad5, type: 2}
+  - {fileID: 11400000, guid: 335d685792ef89d4786872cfca12274b, type: 2}
+  - {fileID: 11400000, guid: 2a55367a09f5ae341acd8ee87a8cef33, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: d11eb7b20dc3d0f4d8e10ffc4473cce5, type: 2}
+  - {fileID: 11400000, guid: 7849dd4a59fda8f40a47b3f16f365421, type: 2}
+  - {fileID: 11400000, guid: 5e3ee79e1de37a04887642bf00884c8c, type: 2}
+  - {fileID: 11400000, guid: 15e2f835589ac654294efa0aac7948d2, type: 2}
+  - {fileID: 11400000, guid: 7e523dc4181f007479c4979e038b200e, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: abd60a88eb3d4894da81b49449b221d8, type: 2}
+  - {fileID: 11400000, guid: 3e2babb76b36e0e418b544d4dd19242c, type: 2}
+  - {fileID: 11400000, guid: 719a413e1cd036d428edfd4ec121f698, type: 2}
+  - {fileID: 11400000, guid: 20ff8098bc2d1b844babe843b934f250, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 68eb7550ffb095347aad05d12dfdd9d7, type: 2}
+  - {fileID: 11400000, guid: 7b08ed065648caf4285258aa1ede313d, type: 2}
+  - {fileID: 11400000, guid: cede01fffa7209d4da7f902fef6f9e77, type: 2}
+  - {fileID: 11400000, guid: 04c0e19b7f4ecf24ab8532c8ffd96f51, type: 2}
+  - {fileID: 11400000, guid: 91a628b817387da42bdc945ef69d8e31, type: 2}
+  - {fileID: 11400000, guid: 6da48e921d01e8948b371406006a1c4d, type: 2}
+  - {fileID: 11400000, guid: 96b381a34aa054f4b89dd98a1423390c, type: 2}
+  - {fileID: 11400000, guid: 0eded43564694b345836476638040712, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 7bf9644d1e78fc94892a5059f7235705, type: 2}
+  - {fileID: 11400000, guid: 7c1cde5f0463b9847b43e3f33be9ae05, type: 2}
+  - {fileID: 11400000, guid: 88286e7c25fdb274fbb031352d9b876e, type: 2}
+  - {fileID: 11400000, guid: d1a6fc6dfec9ba44c898e56a067071af, type: 2}
+  - {fileID: 11400000, guid: 6682123b905c9d64893a24eaffe6c252, type: 2}
+  - {fileID: 11400000, guid: c1458810bc179994aaf3e564c87ae0b5, type: 2}

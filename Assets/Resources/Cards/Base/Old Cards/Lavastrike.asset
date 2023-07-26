@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Lavastrike
+  m_EditorClassIdentifier: 
+  cardID: 264301
+  cardDescription: 'Remove all <b>Armor</b> and <b>Barrier</b> from the target. Deal
+    [damage:3] damage twice.
+
+    Inflict <b>2 Burning<b>.'
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 1
+  monsterHint: 0
+  artwork: {fileID: 159960657634905032, guid: d805840d6a905d746a4553761b8f43e8, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 2
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 1
+  cardKeywords:
+  - fire
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: removestatus:armor:[[otherArmor]]:other
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: e6d3bddeae9113345a612d61e8574ca4, type: 2}
+    effectConditions:
+    - valueToCheck: 6
+      conditonOperator: 2
+      targetValue: armor
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: removestatus:barrier:[[other(status)Barrier]]:other
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: c83ee03873880f04e8b248fc80053705, type: 2}
+    effectConditions:
+    - valueToCheck: 6
+      conditonOperator: 2
+      targetValue: barrier
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: damage:3:fire:other:2
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: inflict:2
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: f3fcd74723959da44ace7130d8dc0c29, type: 2}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

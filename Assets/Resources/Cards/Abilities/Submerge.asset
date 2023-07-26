@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Submerge
+  m_EditorClassIdentifier: 
+  cardID: 879061
+  cardDescription: Cleanse an Affliction and gain <b>Barrier</b> equal to your missing
+    health.  At the start of your turn, <b>Emerge</b>. Can't be <b>Jinxed</b>.
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 4
+  cardRarity: 4
+  monsterHint: 4
+  artwork: {fileID: -1841487725, guid: b0d26353e786fcd4c8c380be16507754, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 2
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: bless:[[myMissingHealth]]
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: c83ee03873880f04e8b248fc80053705, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: cleanse:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard:
+    - {fileID: 11400000, guid: ff6e8cd7378d1374793e47c6db3247cc, type: 2}
+    referenceStatus: {fileID: 11400000, guid: 0a9a78e5fcb0b36449bd5ed2f5864e1f, type: 2}
+    effectConditions:
+    - valueToCheck: 54
+      conditonOperator: 3
+      targetValue: Submerge
+      ignoreForDisplay: 1
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 19
+      codeLine: create:1
+      referenceCard:
+      - {fileID: 11400000}
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: bless:1
+      referenceCard: []
+      referenceStatus: {fileID: 11400000, guid: 5e562fd3b1afde04493249b80253c381,
+        type: 2}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: removestatus:barrier:9999:self
+      referenceCard: []
+      referenceStatus: {fileID: 11400000, guid: c83ee03873880f04e8b248fc80053705,
+        type: 2}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: removeenchant:this
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []

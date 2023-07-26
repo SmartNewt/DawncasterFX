@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 5 Riphide Ramparts
+  m_EditorClassIdentifier: 
+  ID: 32
+  expansion: 2
+  areaName: 'Riphide Ramparts '
+  areaDescription: 'At the heart of the Eternal Battlefields lay the Riphide Ramparts.
+    A deep valley along the slopes of the Black Citadel, home to a vicious clan of
+    demons who relentlessly lay siege to Brightcandle. '
+  shortDescription: Travel to the smokefilled ramparts.
+  areaLevel: 5
+  areaBGName: dc_bg_ramparts_game
+  backgroundTrack: Riphide Ramparts v4__normalised
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 664931
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 856344
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4280624570
+  areaSpecificEvents:
+  - {fileID: 11400000, guid: 50a60c64933c2f548bf45beca88f7d41, type: 2}
+  - {fileID: 11400000, guid: 50a60c64933c2f548bf45beca88f7d41, type: 2}
+  - {fileID: 11400000, guid: b65bf23e61a199f43a2b63e7c46becf6, type: 2}
+  - {fileID: 11400000, guid: b65bf23e61a199f43a2b63e7c46becf6, type: 2}
+  areaOpportunities: []
+  miniBosses:
+  - {fileID: 11400000, guid: 7efe8118a210e984ea68b6cf681f6363, type: 2}
+  - {fileID: 11400000, guid: e97a6034e2f49034eb680194ab8462fb, type: 2}
+  areaEnemies:
+  - {fileID: 11400000, guid: 214a06566eab28c4097862e03842b4ae, type: 2}
+  - {fileID: 11400000, guid: 6c46cf606aab2024fb2068eaee272558, type: 2}
+  - {fileID: 11400000, guid: 10a29655e3006fb4b8b788da9a693b52, type: 2}
+  areaEffects:
+  - {fileID: 11400000, guid: d7dea448a576c31448ff5ec0de9aba89, type: 2}
+  areaSpecialStart: 1
+  enemies: 5
+  opportunities: 4
+  campfires: 3
+  npcs: 3
+  shrines: 2
+  showQuestpanel: 1
+  questTitle: End the Siege
+  questImage: {fileID: 21300000, guid: 551ab888673f0f242b181073d60d75e9, type: 3}
+  questDescription: If the relentless siege of the Riphides goes unanswered any longer,
+    Brightcandle will be overrun before the battle even truly begins. Find a way
+    to break the siege and advance towards the Black Citadel.
+  forcedQuestFlags: []
+  boss: {fileID: 11400000, guid: 19ee20e249af1334597ea193f0d58f0c, type: 2}
+  bossIntro: 1
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: YOUR WALLS WILL BE YOUR TOMBSTONES
+  bossAppearingLine: 
+  bossDefeatedLine: No... surrender...
+  questEvents:
+  - {fileID: 11400000, guid: ff3097f21e017d845a09c33753128bf6, type: 2}
+  - {fileID: 11400000, guid: af13907a2b2b3ca4fa75043cf4b67168, type: 2}
+  - {fileID: 11400000, guid: ded14bff3101ceb45a17cfd402c5e868, type: 2}
+  - {fileID: 11400000, guid: af13907a2b2b3ca4fa75043cf4b67168, type: 2}
+  openingText: {fileID: 0}
+  closingText: {fileID: 0}

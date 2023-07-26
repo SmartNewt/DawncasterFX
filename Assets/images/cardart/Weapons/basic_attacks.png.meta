@@ -1,0 +1,947 @@
+fileFormatVersion: 2
+guid: e5fdfd11a4260014b9fcb3d4a84e5a0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1647421499564677854
+    second: forcewand
+  - first:
+      213: 7040448925271810720
+    second: caduceus
+  - first:
+      213: -7428789456821242973
+    second: scepter
+  - first:
+      213: -3887056435923273339
+    second: wintersprig
+  - first:
+      213: -4555156730384129749
+    second: spire
+  - first:
+      213: 1315846750428092498
+    second: hatchets
+  - first:
+      213: 633653033309853886
+    second: battle_axe
+  - first:
+      213: 3947668616894306260
+    second: cleavers
+  - first:
+      213: 6020984569979166878
+    second: stormaxe
+  - first:
+      213: 375050338517371644
+    second: trumbash
+  - first:
+      213: -4629126212015372854
+    second: longsword
+  - first:
+      213: -2720214523836584515
+    second: greatsword
+  - first:
+      213: 2827678223000398844
+    second: soulblade
+  - first:
+      213: -7330333243014066697
+    second: scimitar
+  - first:
+      213: -8870340332185089944
+    second: katana
+  - first:
+      213: 2005851482889052657
+    second: daggers
+  - first:
+      213: -7389264543955878933
+    second: cutlass
+  - first:
+      213: 5426198550341384578
+    second: rapier
+  - first:
+      213: 8339514071889895250
+    second: khanjali
+  - first:
+      213: 1251229565993496863
+    second: onzil
+  - first:
+      213: 6104901334604763877
+    second: longbow
+  - first:
+      213: 103177496139955078
+    second: greatbow
+  - first:
+      213: -7644149223763440531
+    second: crossbow
+  - first:
+      213: 5686905010965521261
+    second: shortbow
+  - first:
+      213: 4038537370228468181
+    second: shuriken
+  - first:
+      213: 5873067136980468845
+    second: warhammer
+  - first:
+      213: -3371584805297692437
+    second: greatclub
+  - first:
+      213: 8747858720137216561
+    second: forgehammer
+  - first:
+      213: -3583454877163242799
+    second: maul
+  - first:
+      213: -122031668146284800
+    second: warmace
+  - first:
+      213: 4524783665474448116
+    second: basic_attacks_30
+  - first:
+      213: -5129073907986727261
+    second: basic_attacks_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forcewand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2252b13efde2329e0800000000000000
+      internalID: -1647421499564677854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caduceus
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a26b12eef2b4b160800000000000000
+      internalID: 7040448925271810720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scepter
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3b0033953a7e890800000000000000
+      internalID: -7428789456821242973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wintersprig
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589b5ea14c66e0ac0800000000000000
+      internalID: -3887056435923273339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spire
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2169358615d8c0c0800000000000000
+      internalID: -4555156730384129749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatchets
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585e1ad5a3d24210800000000000000
+      internalID: 1315846750428092498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_axe
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8584993103bc800800000000000000
+      internalID: 633653033309853886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleavers
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3223
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d751f001bfe8c630800000000000000
+      internalID: 3947668616894306260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormaxe
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9067bbd095de8350800000000000000
+      internalID: 6020984569979166878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trumbash
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfac738bb42743500800000000000000
+      internalID: 375050338517371644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: longsword
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5cf508c3a02cfb0800000000000000
+      internalID: -4629126212015372854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greatsword
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdacd98d4bdf3ad0800000000000000
+      internalID: -2720214523836584515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soulblade
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbeb05bc5eed3720800000000000000
+      internalID: 2827678223000398844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scimitar
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdc8e4d0cc654a90800000000000000
+      internalID: -7330333243014066697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katana
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8688947077836e480800000000000000
+      internalID: -8870340332185089944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2350
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1eac5db4736db10800000000000000
+      internalID: 2005851482889052657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutlass
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebfe1a1c0f047990800000000000000
+      internalID: -7389264543955878933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rapier
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28976d115dabd4b40800000000000000
+      internalID: 5426198550341384578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khanjali
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f5e5e1dd7ebb370800000000000000
+      internalID: 8339514071889895250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onzil
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11328539a24d5110800000000000000
+      internalID: 1251229565993496863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: longbow
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2dced2b67f8b450800000000000000
+      internalID: 6104901334604763877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greatbow
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b7c36d26f8e6100800000000000000
+      internalID: 103177496139955078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crossbow
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c808b08c68ae590800000000000000
+      internalID: -7644149223763440531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shortbow
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1477
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d632df91af1fbee40800000000000000
+      internalID: 5686905010965521261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9ab945754cb0830800000000000000
+      internalID: 4038537370228468181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warhammer
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cdb9b173518150800000000000000
+      internalID: 5873067136980468845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greatclub
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be06026ab79b531d0800000000000000
+      internalID: -3371584805297692437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forgehammer
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13205176823a66970800000000000000
+      internalID: 8747858720137216561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maul
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3b0276c2054ec0800000000000000
+      internalID: -3583454877163242799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warmace
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007dac828d47e4ef0800000000000000
+      internalID: -122031668146284800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handcannon
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb87b1a5ebd99b44c8e99af63b657c8e
+      internalID: -1780400899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane_bow
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 604
+        width: 512
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e190a302fbff5b409931c38722ab80f
+      internalID: -624869376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      handcannon: -1780400899
+      daggers: 2005851482889052657
+      arcane_bow: -624869376
+      cleavers: 3947668616894306260
+      scepter: -7428789456821242973
+      trumbash: 375050338517371644
+      wintersprig: -3887056435923273339
+      hatchets: 1315846750428092498
+      caduceus: 7040448925271810720
+      forcewand: -1647421499564677854
+      khanjali: 8339514071889895250
+      battle_axe: 633653033309853886
+      forgehammer: 8747858720137216561
+      shuriken: 4038537370228468181
+      onzil: 1251229565993496863
+      crossbow: -7644149223763440531
+      maul: -3583454877163242799
+      warmace: -122031668146284800
+      longbow: 6104901334604763877
+      scimitar: -7330333243014066697
+      greatsword: -2720214523836584515
+      shortbow: 5686905010965521261
+      stormaxe: 6020984569979166878
+      greatclub: -3371584805297692437
+      cutlass: -7389264543955878933
+      greatbow: 103177496139955078
+      katana: -8870340332185089944
+      soulblade: 2827678223000398844
+      longsword: -4629126212015372854
+      spire: -4555156730384129749
+      warhammer: 5873067136980468845
+      rapier: 5426198550341384578
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: cards
+  assetBundleVariant: 

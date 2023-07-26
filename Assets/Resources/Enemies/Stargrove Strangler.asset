@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Stargrove Strangler
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: Time to cull out the weeds.
+  eventImage: {fileID: 21300000, guid: 4f71036aeda2cfe4f9ba2209a0b8d9e5, type: 3}
+  overlayImage: {fileID: 21300000, guid: 56938bea58ea1d14b9337635a3acb60b, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_dc_starlit_strangler
+  battleMotion: {fileID: 7400000, guid: 625c9d6362c1a9e43ab3a3e00f32a490, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 05000000
+  maxHealth: 42
+  energyPerTurn: 3
+  cardsPerTurn: 3
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 630dca5c3beb43f4189538899afff77b, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 24100891eb4547a42a54876433b5ce67, type: 2}
+  - {fileID: 11400000, guid: 4931b74ae71b35447a4263b056addd5d, type: 2}
+  - {fileID: 11400000, guid: 591af47e534509b4188ce5273e718ae6, type: 2}
+  combatMusic: 
+  combatStart: Let Mother Nature embrace you...
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

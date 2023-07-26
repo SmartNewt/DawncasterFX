@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Elite Fireball
+  m_EditorClassIdentifier: 
+  cardID: 73787
+  cardDescription: 'Deal [damage:8] damage.
+
+    Inflict <b>Burning</b> equal to
+    half the damage dealt.
+
+    <b>Lifedrain</b>.'
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 1
+  cardCategory: 0
+  cardRarity: 3
+  monsterHint: 0
+  artwork: {fileID: -8950210007585145333, guid: 2954f7e21e2528e4eb44f9b9d9c909d0,
+    type: 3}
+  audioClip: {fileID: 8300000, guid: 06e8d56c0a8b9004e96c996508dd45d1, type: 3}
+  colorCard: 0
+  costDEX: 0
+  costINT: 1
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 1
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 1
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  cardKeywords:
+  - firecast
+  - fire
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:8:fire
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: inflict:[[lastDamage]]/2
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: f3fcd74723959da44ace7130d8dc0c29, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: heal:[[lastDamage]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

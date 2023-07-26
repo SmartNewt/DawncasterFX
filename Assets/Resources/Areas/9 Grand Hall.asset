@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 9 Grand Hall
+  m_EditorClassIdentifier: 
+  ID: 91
+  expansion: 1
+  areaName: The Defiled Sanctum
+  areaDescription: The grand Cathedral at the heart of the Black Citadel no longer
+    shows any signs of its former glory. Demonic runes and bloody symbols desecrate
+    the black stone everywhere you look, while at its very heart a small gateway
+    glows ominously...
+  shortDescription: Step into the defiled grand hall of the Citadel.
+  areaLevel: 9
+  areaBGName: DT_BG_Final_boss
+  backgroundTrack: finalboss_loop_ogg__normalised
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 3711762547
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 1308625968
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4280624570
+  areaSpecificEvents: []
+  areaOpportunities: []
+  miniBosses: []
+  areaEnemies:
+  - {fileID: 11400000, guid: 9d450f7b1a0b5764d8e9a64d7d1dac19, type: 2}
+  areaEffects: []
+  areaSpecialStart: 0
+  enemies: 0
+  opportunities: 0
+  campfires: 0
+  npcs: 0
+  shrines: 0
+  showQuestpanel: 0
+  questTitle: End the Conflict
+  questImage: {fileID: 0}
+  questDescription: A final confrontation awaits...
+  forcedQuestFlags: []
+  boss: {fileID: 11400000, guid: 9d450f7b1a0b5764d8e9a64d7d1dac19, type: 2}
+  bossIntro: 0
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: 
+  bossAppearingLine: 
+  bossDefeatedLine: 
+  questEvents: []
+  openingText: {fileID: 4900000, guid: a3a73c926b9009d46a4ffc5ce71bcc92, type: 3}
+  closingText: {fileID: 0}

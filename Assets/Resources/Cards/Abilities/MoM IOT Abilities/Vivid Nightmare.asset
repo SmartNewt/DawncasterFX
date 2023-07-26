@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Vivid Nightmare
+  m_EditorClassIdentifier: 
+  cardID: 279450
+  cardDescription: "Inflict 1 <b>Bane</b>.\nAdd 3 <b>Terror</b> cards to \nyour foe\u2019s
+    deck."
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 4
+  monsterHint: 1
+  artwork: {fileID: -1076858004, guid: a5cc603480e587e48bb4921bfdf9cbc3, type: 3}
+  audioClip: {fileID: 8300000, guid: acee80306e8e1904190ac3af356a49bb, type: 3}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 2
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: inflict:1
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 36e25d183f40b3746ab35cd5866db64b, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addcard:3:other
+    referenceCard:
+    - {fileID: 11400000, guid: 6a131203dbce00244a70892a05748993, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

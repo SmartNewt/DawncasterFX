@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Sharpclaw Raven
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: Beady eyes watch you warily
+  eventImage: {fileID: 21300000, guid: 74ad79d49d625f84ea11f33ec7fc3da4, type: 3}
+  overlayImage: {fileID: 21300000, guid: 81834b76f502f45499e5b741e8909837, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_raven
+  battleMotion: {fileID: 7400000, guid: 36fbb7c82f47d87448538b30b98c9328, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 04000000
+  maxHealth: 18
+  energyPerTurn: 2
+  cardsPerTurn: 2
+  maximumHandSize: 5
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 39b5312ebf67b6e47a618fe967a01e81, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 71c5ab8057c2626468d823a73f0226e8, type: 2}
+  - {fileID: 11400000, guid: 3abdb8a6ed64afc4587541d346bb2056, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

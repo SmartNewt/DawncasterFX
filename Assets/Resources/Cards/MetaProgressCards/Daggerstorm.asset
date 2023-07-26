@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Daggerstorm
+  m_EditorClassIdentifier: 
+  cardID: 27785
+  cardDescription: 'Draw 3 cards.
+
+    Gain DEX and make a basic attack for every
+    Melee action drawn.'
+  cardexpansion: 2
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 3
+  monsterHint: 4
+  artwork: {fileID: 1331163777640441697, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 3
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: draw:3
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 0
+    showIcon: 0
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 12
+      codeLine: addstack:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 12
+      codeLine: basicattack:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 3
+        conditonOperator: 2
+        targetValue: melee
+        ignoreForDisplay: 0
+    - cardTrigger: 12
+      codeLine: energy:DEX:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 3
+        conditonOperator: 2
+        targetValue: melee
+        ignoreForDisplay: 0
+    - cardTrigger: 12
+      codeLine: removeenchant:this
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 33
+        conditonOperator: 1
+        targetValue: 2
+        ignoreForDisplay: 0
+    - cardTrigger: 44
+      codeLine: removeenchant:this
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []

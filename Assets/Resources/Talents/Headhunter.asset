@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Headhunter
+  m_EditorClassIdentifier: 
+  ID: 769932
+  expansion: 1
+  description: Whenever you defeat a Boss, gain 50 gold and heal to full health HEALTH.
+  powerImage: {fileID: 8549901271524258715, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  tier: 1
+  flavortext: The higher the danger, the higher the reward.
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 26
+    codeLine: healpercentage:100
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 9
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 26
+    codeLine: gold:50
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 9
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 0
+    codeLine: healpercentage:100
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 9
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+    - valueToCheck: 65
+      conditonOperator: 3
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 0
+    codeLine: gold:50
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 9
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+    - valueToCheck: 65
+      conditonOperator: 3
+      targetValue: 
+      ignoreForDisplay: 0
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 1
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

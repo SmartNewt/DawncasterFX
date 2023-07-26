@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Pinned
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 1
+    effectTrigger: 0
+    description: While <b>Pinned</b>, only the leftmost and rightmost cards in hand
+      can be played. Lasts 1 round per stack.
+    statusIcon: {fileID: -7645113838639376493, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4280954075
+    effectColor:
+      serializedVersion: 2
+      rgba: 4283069089
+    clip: {fileID: 8300000, guid: 1e093f71c15468342aa216fead864088, type: 3}
+    triggerClip: {fileID: 0}
+    clearAt: 24
+    lowerInsteadOfClear: 1
+    excludeFromRandom: 1
+    canNotBeIncreased: 0
+    triggerOnClear: 0

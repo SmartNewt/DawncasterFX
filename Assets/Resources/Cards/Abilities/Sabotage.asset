@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Sabotage
+  m_EditorClassIdentifier: 
+  cardID: 4400
+  cardDescription: 'Dispel a Blessing.
+
+    Reduce <B>Battle Momentum</b> by your
+    remaining Energy ([[allEnergy]]).'
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 3
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: 708978041674299043, guid: 0b1cf525be96d4b42a9d9ddef2848f85, type: 3}
+  audioClip: {fileID: 8300000, guid: bc4dd94a1d79082408281615cb3e5948, type: 3}
+  colorCard: 5
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 1
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 1
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: dispell:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: areaspecial:-[[allEnergy]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addstackto:-[[allEnergy]]:other
+    referenceCard:
+    - {fileID: 11400000, guid: d7dea448a576c31448ff5ec0de9aba89, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: shout:WHAT IS THIS TRICKERY?!
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

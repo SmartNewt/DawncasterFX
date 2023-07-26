@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Acrobatics
+  m_EditorClassIdentifier: 
+  cardID: 946379
+  cardDescription: "Gain STR and <b>1 Evasion</b>. \nIf you have Evasion, instead
+    gain <b>2 Dazed</b>. <b>Empower:</b> Conjure <b>Knife Toss</b>."
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 4
+  monsterHint: 2
+  artwork: {fileID: 1545032755, guid: 8521d46b09d7be44a8cfb8971841d080, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 1
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords:
+  - empower
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: bless:2
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 75242352e266ef7408144eacc9f511ca, type: 2}
+    effectConditions:
+    - valueToCheck: 5
+      conditonOperator: 2
+      targetValue: evasion
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: bless:1
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 1a502dd400b19a246a6687d29ef3b22d, type: 2}
+    effectConditions:
+    - valueToCheck: 5
+      conditonOperator: 3
+      targetValue: evasion
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: energy:STR:1
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 1a502dd400b19a246a6687d29ef3b22d, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: conjure:1
+    referenceCard:
+    - {fileID: 11400000, guid: 47172bf554ec1b5489add45ac36ca61d, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 67
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 2
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

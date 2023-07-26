@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 9ebaccb63ed7bac42bb743a84c1232b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -196323959001172248
+    second: main_ui_squared_0
+  - first:
+      213: 1313436032019756913
+    second: main_ui_squared_1
+  - first:
+      213: -4663292250678975746
+    second: main_ui_squared_2
+  - first:
+      213: 5236973089383075667
+    second: main_ui_squared_3
+  - first:
+      213: -9077922408431458313
+    second: main_ui_squared_4
+  - first:
+      213: -4927020688144693835
+    second: main_ui_squared_5
+  - first:
+      213: 3304729356327884796
+    second: btn_close
+  - first:
+      213: 4401827582165008087
+    second: btn_glass
+  - first:
+      213: -803034765748048698
+    second: btn_next
+  - first:
+      213: 2990294046412380042
+    second: btn_turn
+  - first:
+      213: -7648403208083680932
+    second: achievement_frame
+  - first:
+      213: 8950707634947510631
+    second: wooden_circle_frame
+  - first:
+      213: 212276217864176262
+    second: achievement_banner
+  - first:
+      213: -3177408882223921371
+    second: main_ui_squared_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: main_ui_squared_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1913
+        width: 224
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e636d24664864df0800000000000000
+      internalID: -196323959001172248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1913
+        width: 224
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777cbbbc134a3210800000000000000
+      internalID: 1313436032019756913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_2
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1821
+        width: 242
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2a27ab768a84fb0800000000000000
+      internalID: -4663292250678975746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_3
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1795
+        width: 1025
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f45f237477da840800000000000000
+      internalID: 5236973089383075667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1361
+        width: 512
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f762ea9aadb40280800000000000000
+      internalID: -9077922408431458313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1361
+        width: 513
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b58222e9c4bf9bb0800000000000000
+      internalID: -4927020688144693835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_close
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1267
+        width: 513
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf79ab227d1ccdd20800000000000000
+      internalID: 3304729356327884796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_glass
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 775
+        width: 502
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de36753dde661d30800000000000000
+      internalID: 4401827582165008087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_next
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 739
+        width: 513
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc6c4d922c0bd4f0800000000000000
+      internalID: -803034765748048698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_turn
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 739
+        width: 513
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87106a8798af7920800000000000000
+      internalID: 2990294046412380042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_frame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 410
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51d6332ec96bd590800000000000000
+      internalID: -7648403208083680932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_circle_frame
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 193
+        width: 472
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7615c6dcb2d473c70800000000000000
+      internalID: 8950707634947510631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_banner
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 43
+        width: 252
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682ce00781822f200800000000000000
+      internalID: 212276217864176262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_ui_squared_13
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 43
+        width: 252
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5274fdcc47397e3d0800000000000000
+      internalID: -3177408882223921371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      main_ui_squared_5: -4927020688144693835
+      main_ui_squared_4: -9077922408431458313
+      main_ui_squared_1: 1313436032019756913
+      achievement_frame: -7648403208083680932
+      btn_turn: 2990294046412380042
+      wooden_circle_frame: 8950707634947510631
+      btn_next: -803034765748048698
+      main_ui_squared_2: -4663292250678975746
+      main_ui_squared_0: -196323959001172248
+      main_ui_squared_13: -3177408882223921371
+      main_ui_squared_3: 5236973089383075667
+      btn_glass: 4401827582165008087
+      btn_close: 3304729356327884796
+      achievement_banner: 212276217864176262
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: images
+  assetBundleVariant: 

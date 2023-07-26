@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: ONE
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 4
+  description: An eternal spirit with power over time's ebb and flow.
+  eventImage: {fileID: 21300000, guid: c8d9f0cc4e40aea4c9ea28304eb597eb, type: 3}
+  overlayImage: {fileID: 0}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4281098213
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4281683393
+  battleObject: rig_dc_talos_one
+  battleMotion: {fileID: 7400000, guid: 50f475553f41c2140abc54af61ba74a4, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 05000000
+  maxHealth: 142
+  energyPerTurn: 4
+  cardsPerTurn: 3
+  maximumHandSize: 5
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: ea1802b35f38b294c881428d2f5f5479, type: 2}
+  - {fileID: 11400000, guid: 6f97f7dc3e541cc4ab5489cd2828a0f6, type: 2}
+  enchantmentAura: {fileID: 11400000, guid: 51918ac92079dde4cb3f3b96a71f1666, type: 2}
+  deckList:
+  - {fileID: 11400000, guid: c2176d5c95a32224c9d71a79bcc6d5aa, type: 2}
+  - {fileID: 11400000, guid: 68205c13e4f9df244b29cf70a68ecd2b, type: 2}
+  - {fileID: 11400000, guid: f8dc813362591ff4c8e11c22ac7b15cd, type: 2}
+  combatMusic: 
+  combatStart: TEMPORAL CLEANSE IMMINENT...
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

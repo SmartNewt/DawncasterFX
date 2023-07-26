@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Weeping Mother
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 4
+  description: Broodsssssssssslayer!
+  eventImage: {fileID: 21300000, guid: 9e4578eff4947f04bb4e6e22b3e6034a, type: 3}
+  overlayImage: {fileID: 21300000, guid: 9db228f3a0ea7d44a8d89af90444fe9f, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_spiderboss
+  battleMotion: {fileID: 7400000, guid: 24d4d1fea5ea621449991393f8510008, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 52
+  energyPerTurn: 3
+  cardsPerTurn: 3
+  maximumHandSize: 4
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 408f0e22d920e3544a7733c2af8c8609, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 666ef34e7814bb749b7248bf623bf675, type: 2}
+  - {fileID: 11400000, guid: bcb1132e216714a488e4322940730bd5, type: 2}
+  - {fileID: 11400000, guid: 8233a980faed34e48bb6753d76cd1a7b, type: 2}
+  - {fileID: 11400000, guid: 5063a21313e3f8642aba3ce6ac28c3db, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

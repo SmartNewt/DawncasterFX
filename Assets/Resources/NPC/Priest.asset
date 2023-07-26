@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769cabc4fde7cbc45aab79dc754055ab, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 0
+  description: Do you require guidance?
+  eventImage: {fileID: 21300000, guid: 5a9649b4aa6620342b0213a8b2e7f3c6, type: 3}
+  overlayImage: {fileID: 21300000, guid: 7cb2b55bfd1a7574d950779acb94face, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  textFile: {fileID: 4900000, guid: b8e0af878786fa5468fff7dc99d96589, type: 3}
+  rarity: 0
+  minimumLevel: 0
+  maxLevel: 0
+  unique: 0

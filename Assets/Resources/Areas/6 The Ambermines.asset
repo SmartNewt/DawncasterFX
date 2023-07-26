@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 6 The Ambermines
+  m_EditorClassIdentifier: 
+  ID: 61
+  expansion: 1
+  areaName: The Ambermines
+  areaDescription: The Ambermines used to be the primary source of the precious Amberstone.
+    Now a sinister glow promises a new purpose for these caverns deep within Umbris.
+  shortDescription: Travel deeper into the mountainside.
+  areaLevel: 6
+  areaBGName: DT_BG_Mines
+  backgroundTrack: score_mines
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 534921
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 856344
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4280624570
+  areaSpecificEvents:
+  - {fileID: 11400000, guid: b7e7363830bb4054682a7328b9ae492b, type: 2}
+  - {fileID: 11400000, guid: b7e7363830bb4054682a7328b9ae492b, type: 2}
+  areaOpportunities: []
+  miniBosses:
+  - {fileID: 11400000, guid: 9899f1b46913fa24b911307d9b4bf513, type: 2}
+  areaEnemies:
+  - {fileID: 11400000, guid: 21fa01dc331b0204f88bb661f9dc4eae, type: 2}
+  - {fileID: 11400000, guid: d0fbe62d9595d7b43afb6cf036a5eef5, type: 2}
+  - {fileID: 11400000, guid: 7ab619a2e48a8a34dbbe9fc49a3ba5fb, type: 2}
+  areaEffects: []
+  areaSpecialStart: 0
+  enemies: 4
+  opportunities: 5
+  campfires: 3
+  npcs: 4
+  shrines: 2
+  showQuestpanel: 1
+  questTitle: Court of Stone
+  questImage: {fileID: 21300000, guid: 0755b05f64d8e4e4faf73c9ec9a715e6, type: 3}
+  questDescription: These mines were the next stop of the Champion according to an
+    eccentric hermit. Perhaps these dark halls will reveal more about the pilgrimage
+    of the Dawnbringer, its entourage, and their sudden disappearance.
+  forcedQuestFlags: []
+  boss: {fileID: 11400000, guid: f899c51b3e76bb944a15912663d8885e, type: 2}
+  bossIntro: 1
+  bossIntroSound: {fileID: 8300000, guid: 7ff5b85947175cb4cbee0e7ee03eb6ce, type: 3}
+  bossIntroLine: Ohhh, new puppet! I don't think I have one of you yet.
+  bossAppearingLine: Destroying all my toys, how rude!
+  bossDefeatedLine: 
+  questEvents:
+  - {fileID: 11400000, guid: 21fa01dc331b0204f88bb661f9dc4eae, type: 2}
+  - {fileID: 11400000, guid: ac033ca420450364cb006938515dc39f, type: 2}
+  - {fileID: 11400000, guid: 2bdd797a0ea91a047a7cf7be6e0dd7b5, type: 2}
+  - {fileID: 11400000, guid: 8093ca97ce7e8774c96916be51a7955e, type: 2}
+  - {fileID: 11400000, guid: dea9e260a2d5939499d69484b23a1787, type: 2}
+  openingText: {fileID: 0}
+  closingText: {fileID: 4900000, guid: 3e2ff54fe7912794683617eb7971c973, type: 3}

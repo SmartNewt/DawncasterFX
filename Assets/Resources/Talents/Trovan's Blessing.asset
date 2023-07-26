@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Trovan's Blessing
+  m_EditorClassIdentifier: 
+  ID: 864067
+  expansion: 1
+  description: Whenever you gain gold, heal an equal amount
+  powerImage: {fileID: 1572036379012889940, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  tier: 6
+  flavortext: The god of Luck is one of the few gods that is still actively worshipped
+    besides Rae, and is known to bestow its blessing on the most undeserving.
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 28
+    codeLine: healuniquevalue
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 1
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

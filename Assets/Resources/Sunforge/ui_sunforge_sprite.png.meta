@@ -1,0 +1,983 @@
+fileFormatVersion: 2
+guid: c317773a517044b478258b286614e834
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: btn_fight
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 1859
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef557d10bc37ff04a9eb9024dc89f20a
+      internalID: -1492841350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: difficultyindicator
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 379
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49e08d275615745bae99c76803910a
+      internalID: 1933689283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_active
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 2118
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06e42fc09030ef438dd9315a75e2a97
+      internalID: 238322351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_inactive
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 1860
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673a2b8876498f4488b8b6dd7a6852b3
+      internalID: -330075058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_sunforge
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 2048
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1073c4dc6b778443ac346594cd5dcf3
+      internalID: -160025341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banner
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 753
+        width: 512
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382defe89d105fc4a878f9179aa69648
+      internalID: 338027477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow_portal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2558
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8008002619140af4b9567a2e02717d10
+      internalID: 1116720006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow_ring_bw
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1532
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c7019dd99561346ac2d472f2f3f66c
+      internalID: 2050089621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f06b16b2a338f43ac74c6b820b9019
+      internalID: 1310092568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatarCircle
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2373
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260068bef96bfbd4aa19fe11879d0a4b
+      internalID: 381374583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portalGlare
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2558
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f82e2699e0d7244a96b39b6eafc6b9
+      internalID: 590888083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_random
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 2376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b160b93a5d90a54ca0ec2fad161c943
+      internalID: -1880375946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_side_sunforge_l
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 473
+        width: 512
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d612ee656de56f4fa7c2e13fba19778
+      internalID: -511212935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_side_sunforge_r
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 53
+        width: 512
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f2907aa627bba4381217ef0a7d9db3
+      internalID: 1861941326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midbar_sunforge
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 234
+        width: 1090
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2078beaf3853c724ea6663dca7e0b5ce
+      internalID: 9359381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_foot_l
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 223
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f882c04d73e2f5240a6de969495a8728
+      internalID: 1669752672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_foot_r
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 12
+        width: 223
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c24289db3db6b94685a5cabb4168f9a
+      internalID: 1225879306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banner_glow
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 2887
+        width: 512
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b83e9940fd6ff4b9b2397995240b7c
+      internalID: -1975248022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_corners-sunforge
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 3584
+        width: 1024
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 201, y: 203, z: 202, w: 202}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e47b833a3cff6344bd7d8ac4c5d144b
+      internalID: 177572768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_tooltip-sunforge
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1779
+        width: 676
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 31, y: 172, z: 32, w: 31}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae45db7ff42a19143b740c239f2c5c45
+      internalID: 1535501387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_panel_sunforge
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 34
+        width: 1024
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 17, z: 14, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed0ccbb532e0814fa949fff592af732
+      internalID: -256442645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunforge_valkyrie
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 506
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ee649bbb000e34fa6b6bdb74579a1b
+      internalID: 286663530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunforgeAnnouncer
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 3772
+        width: 894
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 386, y: 0, z: 390, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5199b0bca8d5c0478d7cd6d94f4d8b7
+      internalID: 450334180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_health_square
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 2634
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b36e76dc188b374698a09b50d0823bf
+      internalID: 861938726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statpanel_left
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 3332
+        width: 376
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b2aa044108fe04f8f7c32858bcb8c7
+      internalID: 650441248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statpanel_right
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 2892
+        width: 376
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590c9eb5ab7da064189dea6acbb54db8
+      internalID: -1379486102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunforge_deckGlow
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 121
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e09a9ac3c678364dab410645127eb93
+      internalID: 1740437623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunforge_skullGlow
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 1601
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fde2b05a06f51a429b56d6ceac1edab
+      internalID: -1761173315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rerollToken
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 144
+        width: 235
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3131eb9f22f024da643d9b48f9cffd
+      internalID: -606312585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_glass
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 239
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d105971b339d3b479739c83da334ee8
+      internalID: 669156597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice_reroll-active
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 1458
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf03c3973a861544b9162c9d06e93b33
+      internalID: -1608361493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice_reroll-inactive
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 1315
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c249fba0dddb56b44acb891321925dc3
+      internalID: -1483765977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorybg-sunforge
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 2805
+        width: 1024
+        height: 777
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52708f2c4f4b47143832ec6264546fec
+      internalID: -668142804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunforge_classSelect_portrait
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1532
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0faf13e6ca7dfe4fabf0e3cb32f9927
+      internalID: -496697177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf_keyhole
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1133
+        width: 1024
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57112cca6ce9c334394bbab14daaeeaa
+      internalID: 779158956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_sf-intro
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 893
+        width: 1024
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 17, z: 16, w: 69}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7e512a262f0d4380cabe663d42c79
+      internalID: -706782899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rerollHolder
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 1024
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72c18d548cbc14e81436c59ecf94bb
+      internalID: -1006765222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helpppanel
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1892
+        width: 512
+        height: 911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4212e9a9a0ccbf8498b446b546dbcd44
+      internalID: 383110503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      avatarCircle: 381374583
+      banner: 338027477
+      banner_glow: -1975248022
+      btn_fight: -1492841350
+      btn_glass: 669156597
+      btn_health_square: 861938726
+      btn_panel_sunforge: -256442645
+      btn_random: -1880375946
+      btn_sf-intro: -706782899
+      dice_reroll-active: -1608361493
+      dice_reroll-inactive: -1483765977
+      difficultyindicator: 1933689283
+      frame_side_sunforge_l: -511212935
+      frame_side_sunforge_r: 1861941326
+      glow_portal: 1116720006
+      glow_ring_bw: 2050089621
+      helpppanel: 383110503
+      midbar_sunforge: 9359381
+      panel_tooltip-sunforge: 1535501387
+      portal: 1310092568
+      portalGlare: 590888083
+      rerollHolder: -1006765222
+      rerollToken: -606312585
+      rune_active: 238322351
+      rune_inactive: -330075058
+      sf_keyhole: 779158956
+      statpanel_left: 650441248
+      statpanel_right: -1379486102
+      sunforgeAnnouncer: 450334180
+      sunforge_classSelect_portrait: -496697177
+      sunforge_deckGlow: 1740437623
+      sunforge_skullGlow: -1761173315
+      sunforge_valkyrie: 286663530
+      ui_corners-sunforge: 177572768
+      ui_foot_l: 1669752672
+      ui_foot_r: 1225879306
+      ui_sunforge: -160025341
+      victorybg-sunforge: -668142804
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: images
+  assetBundleVariant: 

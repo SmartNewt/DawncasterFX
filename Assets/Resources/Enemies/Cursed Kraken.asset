@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Cursed Kraken
+  m_EditorClassIdentifier: 
+  nameOverwrite: Cursed Kraken
+  eventType: 9
+  description: Violet eyes peer at you from beneath the depths.
+  eventImage: {fileID: 21300000, guid: 2e7192d5584f86441abb061ed54a5d63, type: 3}
+  overlayImage: {fileID: 21300000, guid: 9f01bdf9ad804d447a1d9952437adb7e, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4286580561
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4285545471
+  battleObject: rig_dc_kraken
+  battleMotion: {fileID: 7400000, guid: ee5d93dd5fa8e654cb8ccabc1ed9292d, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 04000000
+  maxHealth: 117
+  energyPerTurn: 4
+  cardsPerTurn: 3
+  maximumHandSize: 4
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 05b7edd5dddfcfa499267204bdf46c58, type: 2}
+  - {fileID: 11400000, guid: e32dba6357165cd4a92c9ffab05c1823, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 99f2566966fe07b46b417a81645d61a9, type: 2}
+  - {fileID: 11400000, guid: b21c11e1d59a52d47b66825a1a11d992, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

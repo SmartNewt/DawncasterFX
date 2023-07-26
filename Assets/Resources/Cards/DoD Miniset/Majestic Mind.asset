@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Majestic Mind
+  m_EditorClassIdentifier: 
+  cardID: 60377
+  cardDescription: Conjure a free random Dragon card, then repeat all "Start of Turn"
+    effects.
+  cardexpansion: 2
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 2
+  monsterHint: 0
+  artwork: {fileID: 1637841957, guid: 333aa6526d0a6834aa940641b37e50cb, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 1
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: conjure:1:free
+    referenceCard:
+    - {fileID: 11400000, guid: c8a5286087de5e64888dd810b5f8efad, type: 2}
+    - {fileID: 11400000, guid: 408ed07fdbf63eb418a6788217696d30, type: 2}
+    - {fileID: 11400000, guid: 0b11475b499ccdd45bbff8dba2fde0e1, type: 2}
+    - {fileID: 11400000, guid: 182658dec36e235479ca8e5ccad5132f, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: startturn
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    CardEffectList: []

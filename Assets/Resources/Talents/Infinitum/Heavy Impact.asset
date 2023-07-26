@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Heavy Impact
+  m_EditorClassIdentifier: 
+  ID: 680166
+  expansion: 5
+  description: Whenever you conjure a <b>Bomb</b>, upgrade it by your level ([[myLevel]]).
+  powerImage: {fileID: 859991313, guid: 6cda95c4ea0638c47b38dbc0a6a0abf7, type: 3}
+  tier: 1
+  flavortext: Try Bomb 2.0! Harder, deadlier, louder.
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 16
+    codeLine: upgrade:[[myLevel]]
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 58
+      conditonOperator: 2
+      targetValue: bomb
+      ignoreForDisplay: 0
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 2

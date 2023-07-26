@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Essence of Pain
+  m_EditorClassIdentifier: 
+  cardID: 636716
+  cardDescription: '<b>One Use:</b> Gain <b>3 Anger</b>.
+
+    Gain <b>[healing:3]
+    HEALTH</b>.'
+  cardexpansion: 4
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 4
+  artwork: {fileID: -1333019199, guid: f3519496df0a32143ad51cafdbed91ce, type: 3}
+  audioClip: {fileID: 8300000, guid: ea10cbb9d7a5af9448aa5e86a8bd753b, type: 3}
+  colorCard: 3
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 1
+  unique: 0
+  unplayable: 0
+  oneuse: 1
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 1
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 1
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  cardKeywords:
+  - heavy
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: bless:3
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 5e562fd3b1afde04493249b80253c381, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: heal:3
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Guarding Weapon
+  m_EditorClassIdentifier: 
+  ID: 638797
+  expansion: 1
+  description: Use your Weapon Power to start next combat with Heavy Armor.
+  powerImage: {fileID: -4186164838513462413, guid: d805840d6a905d746a4553761b8f43e8,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: 1afc2ac1fa7db7b45ba9e6ccf2bc7941, type: 3}
+  effectList:
+  - cardTrigger: 38
+    codeLine: addnextcard
+    referenceCard:
+    - {fileID: 11400000, guid: 4a81d127e11f7c343ab7cf1da0bce298, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 2
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

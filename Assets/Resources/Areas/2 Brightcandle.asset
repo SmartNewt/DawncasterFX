@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 2 Brightcandle
+  m_EditorClassIdentifier: 
+  ID: 21
+  expansion: 1
+  areaName: Brightcandle
+  areaDescription: Brightcandle was founded by the Radiant Militia as a rallying
+    banner on the border between Lumis and the dark lands of Umbris.
+  shortDescription: Travel to Brightcandle Fortress.
+  areaLevel: 2
+  areaBGName: DT_BG_Brightcandle
+  backgroundTrack: stalwart_loop_B_ogg__normalised
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 664931
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 856344
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4282203647
+  areaSpecificEvents:
+  - {fileID: 11400000, guid: a8704c80e2d0c6248a0ba35ad537192c, type: 2}
+  - {fileID: 11400000, guid: 8a833a3cdd03d17438c733bad304edbd, type: 2}
+  - {fileID: 11400000, guid: dd5c111715b886047965b1ced2ba8e40, type: 2}
+  areaOpportunities: []
+  miniBosses: []
+  areaEnemies: []
+  areaEffects: []
+  areaSpecialStart: 0
+  enemies: 0
+  opportunities: 0
+  campfires: 0
+  npcs: 0
+  shrines: 0
+  showQuestpanel: 0
+  questTitle: Report to the Consul
+  questImage: {fileID: 21300000, guid: 35b60e5a9219b1040a068390bfcf1d01, type: 3}
+  questDescription: You finally made it to Brightcandle, the new outpost in the demon-infested
+    lands of Umbris. Report to the Consul to recieve your first mission.
+  forcedQuestFlags: []
+  boss: {fileID: 0}
+  bossIntro: 0
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: 
+  bossAppearingLine: 
+  bossDefeatedLine: 
+  questEvents:
+  - {fileID: 11400000, guid: 2855a393b950d4146b0c86c976ea4b0f, type: 2}
+  - {fileID: 11400000, guid: cde38b23d35cb1249b1f05c96ad9a10d, type: 2}
+  openingText: {fileID: 0}
+  closingText: {fileID: 0}

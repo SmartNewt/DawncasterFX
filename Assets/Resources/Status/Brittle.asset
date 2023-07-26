@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Brittle
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 1
+    effectTrigger: 6
+    description: When dealt damage, remove <b>Brittle</b>. If the damage was dealt
+      from a Melee Action, take 1 more damage per stack removed.
+    statusIcon: {fileID: 5202418236690239932, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4280954075
+    effectColor:
+      serializedVersion: 2
+      rgba: 4281620136
+    clip: {fileID: 8300000, guid: 2bfeab5f5e7ca154fa757d13974408e7, type: 3}
+    triggerClip: {fileID: 8300000, guid: 3168f819a2bf7ce45b0a6e73637685aa, type: 3}
+    statusDisplayImage: {fileID: 912552898229718101, guid: 44b64a4d29ce04e4e8ee64994fc6d399,
+      type: 3}
+    clearAt: 52
+    lowerInsteadOfClear: 0

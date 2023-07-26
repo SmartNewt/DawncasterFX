@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Summoned Balor
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: A hulking demon grins at you with fiery bemusement.
+  eventImage: {fileID: 21300000, guid: ba89eb154b85e3746ba48c0a1a2e3141, type: 3}
+  overlayImage: {fileID: 21300000, guid: 8d85a762ea447b542960f48ce48ecf76, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4278222591
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278238975
+  battleObject: rig_balor
+  battleMotion: {fileID: 7400000, guid: e90e2c0ea279b0744aa57db48fd8f4c0, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 666
+  energyPerTurn: 3
+  cardsPerTurn: 3
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 45005a15aa89ed04085d19aad4d1c235, type: 2}
+  - {fileID: 11400000, guid: bea3a584314cc81429ead6c62584385a, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 7cd17c5a59a5a004a9a5bce3804b24f1, type: 2}
+  - {fileID: 11400000, guid: d68f7f6581de03b4891279419fb5acee, type: 2}
+  - {fileID: 11400000, guid: 9be4b750c806831479e435e1c888085c, type: 2}
+  - {fileID: 11400000, guid: 87d1448b83889ac4e80b40c7a6431603, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

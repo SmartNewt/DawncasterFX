@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Wild Alchemy
+  m_EditorClassIdentifier: 
+  cardID: 535646
+  cardDescription: Conjure 2 Potions to your discard pile.
+  cardexpansion: 4
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 1
+  artwork: {fileID: -8896912772262062967, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 1
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 1
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  cardKeywords:
+  - conjure
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: addcard:2:self:conjure
+    referenceCard:
+    - {fileID: 11400000, guid: 6fe93c6f2b5fdff41a100f5fc6be353a, type: 2}
+    - {fileID: 11400000, guid: 518c9326d6d3db04cbdd7aeb2a20582c, type: 2}
+    - {fileID: 11400000, guid: 86da2e8fbcfcf714a9e707f27ce43bc8, type: 2}
+    - {fileID: 11400000, guid: b8d72d82a52d91f4ab244e703a85283b, type: 2}
+    - {fileID: 11400000, guid: a59c6fb74169b344c9b28b26433d0147, type: 2}
+    - {fileID: 11400000, guid: 1ee283e53592fc646bec2531e1ad19dd, type: 2}
+    - {fileID: 11400000, guid: 86da2e8fbcfcf714a9e707f27ce43bc8, type: 2}
+    - {fileID: 11400000, guid: 27f8c0ca61545dc44bb2021d2a6f1838, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

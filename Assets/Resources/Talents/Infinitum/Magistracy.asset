@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Magistracy
+  m_EditorClassIdentifier: 
+  ID: 373791
+  expansion: 5
+  description: Draw 2 less cards at the start of your turn. Your conjurations inflict
+    <b>Critical Hits</b>.
+  powerImage: {fileID: 1809876171, guid: 6cda95c4ea0638c47b38dbc0a6a0abf7, type: 3}
+  tier: 6
+  flavortext: Life is the true illusion.
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 0
+    codeLine: extradraws:-2
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 33
+    codeLine: multiplydamage:2
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 28
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 1
+  excludeFromSunforge: 0
+  requiredTalents:
+  - {fileID: 11400000, guid: 87b09246185b3cf43b6ae181b7c1eed7, type: 2}
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

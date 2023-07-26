@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Rally
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 0
+    effectTrigger: 39
+    description: Whenever your opponent plays a card, gain HEALTH equal to your Rally,
+      then lower your Rally by 1.
+    statusIcon: {fileID: 4202662270812232140, guid: c1c4db33313bdbf4d852323351e72a57,
+      type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4287938560
+    effectColor:
+      serializedVersion: 2
+      rgba: 4281699769
+    clip: {fileID: 8300000, guid: a887f4442c230a44390b0b3bcfe9583e, type: 3}
+    triggerClip: {fileID: 8300000, guid: 8c27f4478ecf7cc448cd2568607927a4, type: 3}
+    statusDisplayImage: {fileID: -8203426539935234475, guid: 44b64a4d29ce04e4e8ee64994fc6d399,
+      type: 3}
+    clearAt: 0
+    lowerInsteadOfClear: 0
+    excludeFromRandom: 0
+    canNotBeIncreased: 0
+    triggerOnClear: 0

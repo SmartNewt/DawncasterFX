@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: 1 Weeping Woods
+  m_EditorClassIdentifier: 
+  ID: 11
+  expansion: 1
+  areaName: Weeping Woods
+  areaDescription: The Weeping Woods create a natural border between the Shattered
+    Realms and demon infested Umbris.
+  shortDescription: Travel through the webby woods.
+  areaLevel: 1
+  areaBGName: DT_BG_Forest
+  backgroundTrack: weeping_woods_ambient
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 858679850
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 1461263394
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4280558777
+  areaSpecificEvents:
+  - {fileID: 11400000, guid: 948ef2553febd4543bd73f7324f70989, type: 2}
+  - {fileID: 11400000, guid: 6fdaf6ed2ae78534a8f1e3965c9803a7, type: 2}
+  areaOpportunities: []
+  miniBosses:
+  - {fileID: 11400000, guid: f4851df9ccf81ff47a924d6870d06f3d, type: 2}
+  areaEnemies:
+  - {fileID: 11400000, guid: 039f64d4886e6cf4686cf5f6d0d93189, type: 2}
+  - {fileID: 11400000, guid: 54f4a1abd65967849bb0c73d993a244f, type: 2}
+  - {fileID: 11400000, guid: 1d8ec7cdad9422c48a29265e806c87ae, type: 2}
+  areaEffects: []
+  areaSpecialStart: 0
+  enemies: 3
+  opportunities: 4
+  campfires: 3
+  npcs: 0
+  shrines: 1
+  showQuestpanel: 1
+  questTitle: The Gilded Summons
+  questImage: {fileID: 21300000, guid: 35b60e5a9219b1040a068390bfcf1d01, type: 3}
+  questDescription: Two weeks after the invasion of Umbris, a series of pamphlets
+    start appearing all over the Shattered Realms. The richly decorated paper invites
+    all adventurers in search of fame, fortune or absolution to report to the Brightcandle
+    Fortress and join the glorious battle against Umbris.
+  forcedQuestFlags:
+  - weepingwoods
+  boss: {fileID: 11400000, guid: 8bbb6a4b575d2e549929c710fd75a6b4, type: 2}
+  bossIntro: 0
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: Intrudersssssssss! Sssssstay out or feel our wrath!
+  bossAppearingLine: Broodsssssssslayer!
+  bossDefeatedLine: 
+  questEvents:
+  - {fileID: 11400000, guid: 1c7e3e438d1dc764ca35cf1c1478d22f, type: 2}
+  - {fileID: 11400000, guid: 1bb9c82ccffc2004fbb2e94c567c3cee, type: 2}
+  - {fileID: 11400000, guid: 1048d9b2606697340987885c55de4642, type: 2}
+  - {fileID: 11400000, guid: caaebb7478118694883d2848f5c9cde3, type: 2}
+  openingText: {fileID: 4900000, guid: 91e3f018b4ab0b94189dda07a4da53d4, type: 3}
+  closingText: {fileID: 4900000, guid: d9b99c2525af802488393e29eee60284, type: 3}

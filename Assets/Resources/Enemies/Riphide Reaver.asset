@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Riphide Reaver
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: This battered demon looks like it has seen better days.
+  eventImage: {fileID: 21300000, guid: 575ae230c221f034cb5169743ccc003a, type: 3}
+  overlayImage: {fileID: 21300000, guid: 5d2044a5b6faf7b4c9a969c60e405f26, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_dc_reaver
+  battleMotion: {fileID: 7400000, guid: 7e53149d9de9aca439745eb25971ad56, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 56
+  energyPerTurn: 3
+  cardsPerTurn: 2
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments: []
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 8467bed42415e1d4ea26080f1b71ff60, type: 2}
+  - {fileID: 11400000, guid: 2cf92cee1d233d1459161584b87c0342, type: 2}
+  - {fileID: 11400000, guid: fb8cd88f14545254382e8ab0214a4ab8, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: We'll rise... again.
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

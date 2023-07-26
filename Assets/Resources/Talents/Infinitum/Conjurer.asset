@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Conjurer
+  m_EditorClassIdentifier: 
+  ID: 438900
+  expansion: 1
+  description: Whenever you conjure a card, upgrade it by 3. This talent can be taken
+    multiple times.
+  powerImage: {fileID: -586861299666162530, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  tier: 1
+  flavortext: Attunement to the unreal has a deadly potency within the Realms.
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 16
+    codeLine: upgrade:3
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 0
+  unique: 0
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 1
+  rSTR: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbadca450aac0143a9e4fa1d0b075e2, type: 3}
+  m_Name: Shocked
+  m_EditorClassIdentifier: 
+  theStatus:
+    theType: 1
+    effectTrigger: 19
+    description: At the start of the turn, reduce <b>Shocked</b> by 1. When <b>Shocked</b>
+      reaches 0, you are <b>Stunned</b>. The stacks of this affliction can not be
+      increased.
+    statusIcon: {fileID: -66008091, guid: c1c4db33313bdbf4d852323351e72a57, type: 3}
+    statusColor:
+      serializedVersion: 2
+      rgba: 4280954075
+    effectColor:
+      serializedVersion: 2
+      rgba: 4294938721
+    clip: {fileID: 8300000, guid: 9b409b2e65af3cf44b3fc61491dce714, type: 3}
+    triggerClip: {fileID: 8300000, guid: 9b409b2e65af3cf44b3fc61491dce714, type: 3}
+    statusDisplayImage: {fileID: -255195479, guid: 44b64a4d29ce04e4e8ee64994fc6d399,
+      type: 3}
+    clearAt: 19
+    lowerInsteadOfClear: 1
+    excludeFromRandom: 1
+    canNotBeIncreased: 1
+    triggerOnClear: 1

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Melchor the Cursed
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 4
+  description: Welcome to the crrrrrrew matey.
+  eventImage: {fileID: 21300000, guid: 03f1a707ec4c1924ea38f18035a78e05, type: 3}
+  overlayImage: {fileID: 21300000, guid: 49f9e09dc9f897640b9512b56e035803, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4284975629
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4288806656
+  battleObject: rig_melchor
+  battleMotion: {fileID: 7400000, guid: f202e7638507a2f408f97791a915ce4d, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 03000000
+  maxHealth: 113
+  energyPerTurn: 3
+  cardsPerTurn: 3
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments: []
+  enchantmentAura: {fileID: 11400000, guid: fa7bd1ddaf0967f479b602af68b2cf4d, type: 2}
+  deckList:
+  - {fileID: 11400000, guid: 9695f570753de5042abff3d0afa6fbac, type: 2}
+  - {fileID: 11400000, guid: 59d8523985964c9449e6827129391e21, type: 2}
+  - {fileID: 11400000, guid: 53b43cc534380c94697eddccbb207497, type: 2}
+  - {fileID: 11400000, guid: b124890e71fbebc4ca6c8b72654ee3e8, type: 2}
+  combatMusic: 
+  combatStart: Fresh food, the masters haven't abandoned us yet!
+  combatDeath: Noooo! My... treasures...
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Stardart
+  m_EditorClassIdentifier: 
+  cardID: 407364
+  cardDescription: 'Deal [damage:1+[[my(status)Focus]]] damage. <nobr>Improved by
+    <b>Focus</b>.</nobr>
+
+    <b>Play 10 Stardarts:</b> Add a <b>Revelation</b> to
+    your deck.'
+  cardexpansion: 5
+  cosmeticexpansion: 0
+  cardType: 2
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: 579620178, guid: f3519496df0a32143ad51cafdbed91ce, type: 3}
+  audioClip: {fileID: 8300000, guid: df2a154c0219dfd4eb78938accabfa97, type: 3}
+  colorCard: 6
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 1
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords:
+  - stardart
+  - revelation
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:1+[[my(status)Focus]]:arcane
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: c17f6294995b9a1449ef388903ffb1a0, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 54
+      conditonOperator: 3
+      targetValue: stardart
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: addstack:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 2
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 44
+      codeLine: addrevelation:1
+      referenceCard:
+      - {fileID: 11400000, guid: 4f3d2748ed1c08647ba7e78f2e5cfede, type: 2}
+      - {fileID: 11400000, guid: d5acbd69b38ebda4ead09b9b87a38810, type: 2}
+      - {fileID: 11400000, guid: c4264aba93fb0e84f8e6213916176e45, type: 2}
+      - {fileID: 11400000, guid: fed18cbc19aad0844a164d6651ca669f, type: 2}
+      - {fileID: 11400000, guid: 38340f66f74229a4a85544ebe3696a33, type: 2}
+      - {fileID: 11400000, guid: 2a76f77264e18634e90bcf0a44daf1f0, type: 2}
+      - {fileID: 11400000, guid: 8860d2ebb4535934ea035a170853cd14, type: 2}
+      - {fileID: 11400000, guid: d2effb7029aebb94fac30b58af300d77, type: 2}
+      - {fileID: 11400000, guid: 1b66088d8e5280245b96d6edf61ff7fd, type: 2}
+      - {fileID: 11400000, guid: af14bb35bc7e7c94383d3675519c3ff3, type: 2}
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 58
+        conditonOperator: 2
+        targetValue: stardart
+        ignoreForDisplay: 0
+      - valueToCheck: 33
+        conditonOperator: 2
+        targetValue: 10
+        ignoreForDisplay: 0

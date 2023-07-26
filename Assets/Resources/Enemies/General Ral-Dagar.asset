@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: General Ral-Dagar
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 4
+  description: The fearsome leader of the assault on Brightcandle.
+  eventImage: {fileID: 21300000, guid: 984f737fe9f587047879c51c790e2a9a, type: 3}
+  overlayImage: {fileID: 21300000, guid: 3f49ee761bce8434cb52eadb3cd9c59d, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_dc_siege_general
+  battleMotion: {fileID: 7400000, guid: 0e40f1d217c6fc74d977b8731647213e, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 78
+  energyPerTurn: 2
+  cardsPerTurn: 3
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus:
+  - status: {fileID: 11400000, guid: e6d3bddeae9113345a612d61e8574ca4, type: 2}
+    statusName: 
+    amount: 30
+    targetSelf: 1
+  startingEnchantments:
+  - {fileID: 11400000, guid: 5de466d9030775549b92113ebaa5af54, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 8b3b457ab6ed21d4db2a252cfc8f8a43, type: 2}
+  - {fileID: 11400000, guid: 1f5337f0ff10efb40a650f3f5e3a9462, type: 2}
+  - {fileID: 11400000, guid: a581367069a592d4c9eeab8f34cece10, type: 2}
+  combatMusic: 
+  combatStart: READY THE CANNONS!
+  combatDeath: Riphides.... retreat....
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

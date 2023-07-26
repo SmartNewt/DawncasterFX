@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946aa6d97cd4134478a8cb540b82c1cb, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  className: Warrior
+  description: Excels at up-close combat and their unmatched mastery of weaponry.
+  classImage: {fileID: -8115030577405408432, guid: 9091c099ad189ad4d9193ba9d54064ba,
+    type: 3}
+  classColor: {r: 0.6415094, g: 0.1820593, b: 0.1724813, a: 1}
+  associatedBanner: 3
+  portraits:
+  - {fileID: -8115030577405408432, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  - {fileID: 1086964284768796061, guid: a4ebd078b691883478e62ded92f70649, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: 5e6c190aea61fe041a9d9adc2b77f186, type: 2}
+  talents:
+  - {fileID: 11400000, guid: 32be066caefccaf4185b8cc03db818f7, type: 2}
+  startingCards:
+  - {fileID: 11400000, guid: 50f5c9e25d0262b42b45bdd28a0a5dc8, type: 2}
+  dexterity: 0
+  intellect: 0
+  strength: 2
+  progressList:
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 8d5d8e9e74ae73f4f8f7327a437837ef, type: 2}
+  - {fileID: 11400000, guid: 15e2f835589ac654294efa0aac7948d2, type: 2}
+  - {fileID: 11400000, guid: ad3f816ff55d6ef49aeb13fac1fc083c, type: 2}
+  - {fileID: 11400000, guid: 5be912597dfc80148975a0b946f94229, type: 2}
+  - {fileID: 11400000, guid: 14f0c45e846d4e44da613ba27fb3302b, type: 2}
+  - {fileID: 11400000, guid: 5645ad875ab2267458cc04aaf70fa130, type: 2}
+  - {fileID: 11400000, guid: 8cebb1c0bed2b754f944304d31bd4cef, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 7a1bd66400781fb44996485be1866670, type: 2}
+  - {fileID: 11400000, guid: 1f9355f52e6feb74f8e820036fe5b9c3, type: 2}
+  - {fileID: 11400000, guid: 8e7589eb6bc88304497b87cdaea9932b, type: 2}
+  - {fileID: 11400000, guid: 3bf496bcc59bc1d4faa2709affcd8aa0, type: 2}
+  - {fileID: 11400000, guid: 0651aff72c6a0a24e9153caa0302ab6a, type: 2}
+  - {fileID: 11400000, guid: ace42ab2f71be6249befa56c11a0651a, type: 2}
+  - {fileID: 11400000, guid: cb9aa535cd5474b4290a5cb567398380, type: 2}
+  - {fileID: 11400000, guid: da20f7fa2146c4344b068a4c7136d96a, type: 2}
+  - {fileID: 11400000, guid: e9aa915fd6e92654c8aa2295e92a4f80, type: 2}
+  - {fileID: 11400000, guid: 882d06ea82de8574d983d570b0caac66, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: a3960438bbe15874797bd3ebc0807e71, type: 2}
+  - {fileID: 11400000, guid: c5f4bda4cf6160d428e32a247c93f7c1, type: 2}
+  - {fileID: 11400000, guid: cede01fffa7209d4da7f902fef6f9e77, type: 2}
+  - {fileID: 11400000, guid: a260b77ef0e201648a64dd999f9c6260, type: 2}
+  - {fileID: 11400000, guid: b52f353f7bffc954bac41181c9e7fdb6, type: 2}
+  - {fileID: 11400000, guid: 6da48e921d01e8948b371406006a1c4d, type: 2}
+  - {fileID: 11400000, guid: 893b37032d367e34694882dbe2a3dd80, type: 2}
+  - {fileID: 11400000, guid: 6bb6e4f4820718240b147528cec0ded1, type: 2}
+  - {fileID: 11400000, guid: ace42ab2f71be6249befa56c11a0651a, type: 2}
+  - {fileID: 11400000, guid: 6b3a1c3eab4cf4f4c809e24d45fb0f55, type: 2}
+  - {fileID: 11400000, guid: 7c1cde5f0463b9847b43e3f33be9ae05, type: 2}
+  - {fileID: 11400000, guid: 295ed495b0897634f9f792099f34544e, type: 2}
+  - {fileID: 11400000, guid: d1a6fc6dfec9ba44c898e56a067071af, type: 2}
+  - {fileID: 11400000, guid: 4a6e03f8ad36b0d45b9968865927c2f2, type: 2}
+  - {fileID: 11400000, guid: 1cae0295fcbd8b14db80f4fc83ffb93d, type: 2}

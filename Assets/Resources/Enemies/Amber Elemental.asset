@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Amber Elemental
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: A blazing figure illuminates the dark hallways.
+  eventImage: {fileID: 21300000, guid: c09c535f3dd7a834fbc58155433e1be0, type: 3}
+  overlayImage: {fileID: 21300000, guid: dc7a1df1e55150945b8366cd324640f6, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4278222591
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278238975
+  battleObject: rig_fire_elemental
+  battleMotion: {fileID: 7400000, guid: 479be823fe731544e85c64b97ca71945, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 06000000
+  maxHealth: 156
+  energyPerTurn: 2
+  cardsPerTurn: 2
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 7ce17827f57065a4491d8b2eacd56349, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 59626055b3828984c9f7747fc9f411c4, type: 2}
+  - {fileID: 11400000, guid: ae54bace282e8c44e9b6a05315263dc4, type: 2}
+  - {fileID: 11400000, guid: 23d4db5707713b449a10ca12cca47e5d, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

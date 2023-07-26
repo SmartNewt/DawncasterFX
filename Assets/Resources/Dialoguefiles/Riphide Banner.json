@@ -1,0 +1,1 @@
+﻿{"inkVersion":20,"root":[["^A banner marked with a bloody paw waves in the wind, ashes fluttering past the torn red cloth.","\n","ev","str","^Tear it down","/str","/ev",{"*":"0.c-0","flg":4},{"c-0":["\n","^>>>>AREASPECIAL:-2","\n","^Battle Momentum has been lowered by 2!","\n","end",{"->":"0.g-0"},{"#f":5}],"g-0":["done",{"#f":5}]}],"done",{"#f":1}],"listDefs":{}}

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Bombardment
+  m_EditorClassIdentifier: 
+  cardID: 396232
+  cardDescription: '<b>Start of Turn:</b>
+
+    Deal [damage:3] damage for each <b>Battle
+    Momentum</b> ([[areaSpecial]]).
+
+    Raise <b>Battle Momentum</b> by 1.'
+  cardexpansion: 0
+  cosmeticexpansion: 0
+  cardType: 2
+  cardCategory: 0
+  cardRarity: 4
+  monsterHint: 0
+  artwork: {fileID: 744926800638278771, guid: 0b1cf525be96d4b42a9d9ddef2848f85, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 11
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 1
+  canBeAcquired: 0
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 1
+  excludeFromCodex: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addstack:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 1
+    showstacks: 0
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 18
+      codeLine: enchantref:self
+      referenceCard:
+      - {fileID: 11400000, guid: d7dea448a576c31448ff5ec0de9aba89, type: 2}
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 54
+        conditonOperator: 3
+        targetValue: Battle Momentum
+        ignoreForDisplay: 0
+    - cardTrigger: 18
+      codeLine: setstackofref:[[areaSpecial]]
+      referenceCard:
+      - {fileID: 11400000, guid: d7dea448a576c31448ff5ec0de9aba89, type: 2}
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: damage:3:fire:other:[[areaSpecial]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 19
+      codeLine: areaspecial:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 25
+        conditonOperator: 0
+        targetValue: '[[areaSpecial]]:5'
+        ignoreForDisplay: 1
+    - cardTrigger: 19
+      codeLine: setstackofref:[[areaSpecial]]
+      referenceCard:
+      - {fileID: 11400000, guid: d7dea448a576c31448ff5ec0de9aba89, type: 2}
+      referenceStatus: {fileID: 0}
+      effectConditions: []
+    - cardTrigger: 55
+      codeLine: damage:3:fire:other:[[areaSpecial]]
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 49
+        conditonOperator: 2
+        targetValue: FIRE!
+        ignoreForDisplay: 0

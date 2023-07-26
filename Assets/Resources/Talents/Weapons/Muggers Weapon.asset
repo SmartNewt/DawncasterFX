@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Muggers Weapon
+  m_EditorClassIdentifier: 
+  ID: 670277
+  expansion: 1
+  description: Delve a potion and add it to your deck. <b>Slay:</b> Reset this power's
+    cooldown.
+  powerImage: {fileID: -8404562650811858629, guid: 7db3791cf6d3e99478a8ba9d634043d7,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: 4b2c781330c4d31489a9afc958f2b010, type: 3}
+  keywords:
+  - delve
+  - slay
+  effectList:
+  - cardTrigger: 38
+    codeLine: delve:add:potion:3
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 11
+    codeLine: resetweaponcooldown
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 2
+      conditonOperator: 2
+      targetValue: 0
+      ignoreForDisplay: 0
+    - valueToCheck: 34
+      conditonOperator: 3
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 11
+    codeLine: resetweaponcooldown
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 1
+      conditonOperator: 2
+      targetValue: 0
+      ignoreForDisplay: 0
+    - valueToCheck: 34
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  cooldown: 3
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

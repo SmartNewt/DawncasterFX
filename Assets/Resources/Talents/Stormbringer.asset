@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Stormbringer
+  m_EditorClassIdentifier: 
+  ID: 207559
+  expansion: 1
+  description: Start each combat with <b>Chain</b> equal to your level ([[myLevel]]).
+  powerImage: {fileID: 3404731718249882542, guid: d99cca32a57565142ab85d41d3643289,
+    type: 3}
+  tier: 4
+  flavortext: '"Ride this lighting baby!" - Reynard the Filthy'
+  audioClip: {fileID: 0}
+  keywords:
+  - chain
+  effectList:
+  - cardTrigger: 18
+    codeLine: bless:[[myLevel]]
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 9b8a9d6327b5b9c4789b4b25ccca61be, type: 2}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions:
+  - {fileID: 11400000, guid: 0529a18268beb7a42a74c5ba2c1f5de2, type: 2}
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

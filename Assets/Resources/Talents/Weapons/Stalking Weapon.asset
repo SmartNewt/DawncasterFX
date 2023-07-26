@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Stalking Weapon
+  m_EditorClassIdentifier: 
+  ID: 456040
+  expansion: 1
+  description: Use your weapon power to start next combat with <b>Evasion</b> and
+    <b>Killer Instincts</b>.
+  powerImage: {fileID: 6950080794225013451, guid: 82dda3218e942464fab6f16710038027,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: b331fce8ba7c6234a94dd2406c23ec72, type: 3}
+  keywords: []
+  effectList:
+  - cardTrigger: 38
+    codeLine: startstatus:1
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 1a502dd400b19a246a6687d29ef3b22d, type: 2}
+    effectConditions: []
+  - cardTrigger: 38
+    codeLine: addnextcard
+    referenceCard:
+    - {fileID: 11400000, guid: af55c3bd869551841a6e0ddd15dab3ee, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 2
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

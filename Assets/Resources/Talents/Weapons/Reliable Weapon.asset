@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Reliable Weapon
+  m_EditorClassIdentifier: 
+  ID: 185402
+  expansion: 1
+  description: Use your Weapon Power to Gain 10 HEALTH. Lower the cooldown of this
+    power by 1 whenever you visit an Opportunity.
+  powerImage: {fileID: 4635797598296317744, guid: 2954f7e21e2528e4eb44f9b9d9c909d0,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: 0fb1bacdaec66314eb995eee77f3f58d, type: 3}
+  effectList:
+  - cardTrigger: 38
+    codeLine: heal:10
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 41
+    codeLine: lowercooldown
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 3
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

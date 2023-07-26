@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Withering Touch
+  m_EditorClassIdentifier: 
+  cardID: 755183
+  cardDescription: 'Inflict <b>{[[tempValue+1]]*3} Poison</b>.
+
+    <b>Synergy:</b>
+    Inflict 3 more.'
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 3
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: -1329604239299461912, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 1
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 1
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  pauseQueue: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords:
+  - synergy
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: inflict:[[tempValue+1]]*3
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: 7bfc76a1c2571a64788b9a91ea869660, type: 2}
+    effectConditions: []
+  - cardTrigger: 44
+    codeLine: addtempvalue:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 66
+      conditonOperator: 2
+      targetValue: 
+      ignoreForDisplay: 0
+  - cardTrigger: 1
+    codeLine: settempvalue:0
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

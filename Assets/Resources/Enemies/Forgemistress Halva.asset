@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Forgemistress Halva
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 9
+  description: FRESH STEEL!
+  eventImage: {fileID: 21300000, guid: 3c55809cd21d33e4bae5d6467a959480, type: 3}
+  overlayImage: {fileID: 21300000, guid: 7fc7961d74e46744a92f6ffcbc84a797, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4279504266
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4278195455
+  battleObject: rig_dc_forgemistress
+  battleMotion: {fileID: 7400000, guid: 3f5b378ef0464c442938906fb056c46a, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 78
+  energyPerTurn: 2
+  cardsPerTurn: 2
+  maximumHandSize: 2
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: 1041035399f2984419148fbf6b552aa5, type: 2}
+  - {fileID: 11400000, guid: fe482b43f3048ea4396348f8d738f861, type: 2}
+  - {fileID: 11400000, guid: 3431eeb6a8ad91a4384648d63c3ac3a1, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 7a359f2fc2dc85149b6afd85bb583322, type: 2}
+  - {fileID: 11400000, guid: da881929a85f33d4d9cc3c697f44b8e2, type: 2}
+  - {fileID: 11400000, guid: 9b4e78e167fda5949adb4d7a37b12100, type: 2}
+  combatMusic: 
+  combatStart: 
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

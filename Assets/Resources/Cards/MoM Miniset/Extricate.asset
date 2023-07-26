@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Extricate
+  m_EditorClassIdentifier: 
+  cardID: 694848
+  cardDescription: 'Deal [damage:5] damage.
+
+    <b>On Hit:</b> Add an Essence to
+    your discard pile.'
+  cardexpansion: 5
+  cosmeticexpansion: 0
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: 1193446042, guid: f9728be3841581049b5915929325c4c9, type: 3}
+  audioClip: {fileID: 8300000, guid: ece10732f60010f43be3f9a110c2eaaa, type: 3}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 1
+  costINTSTR: 0
+  costLife: 0
+  unique: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 1
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  requireAllConditions: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  excludeFromCodex: 0
+  cardKeywords:
+  - on hit
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:5
+    referenceCard:
+    - {fileID: 11400000, guid: 834b2f6dc676d5a41abca1c73d5357b3, type: 2}
+    - {fileID: 11400000, guid: 5aedb6327a9274242b30b47e6406af1b, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addtodiscard:1
+    referenceCard:
+    - {fileID: 11400000, guid: 834b2f6dc676d5a41abca1c73d5357b3, type: 2}
+    - {fileID: 11400000, guid: 5aedb6327a9274242b30b47e6406af1b, type: 2}
+    - {fileID: 11400000, guid: 3ad2dcca632467c40bdb882bb3763ce6, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 25
+      conditonOperator: 1
+      targetValue: '[[lastDamage]]:0'
+      ignoreForDisplay: 0
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList: []

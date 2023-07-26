@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Searing Radiance
+  m_EditorClassIdentifier: 
+  cardID: 467219
+  cardDescription: This combat, inflict <b>1 Burning</b> at the end of your turn,
+    and one additional Burning for each blessing gained.
+  cardexpansion: 1
+  cosmeticexpansion: 0
+  cardType: 4
+  cardCategory: 4
+  cardRarity: 2
+  monsterHint: 0
+  artwork: {fileID: -4457327481806080490, guid: 70d4c82c2b3e21b4ea5fffd7aa38abbd,
+    type: 3}
+  audioClip: {fileID: 8300000, guid: 13ac472d6c90166418f91e480e29503f, type: 3}
+  colorCard: 0
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 2
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unique: 1
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  memorized: 0
+  valuable: 0
+  echo: 0
+  reliable: 0
+  firecast: 0
+  grounded: 0
+  heavy: 0
+  charges: 0
+  uniqueInHand: 0
+  canBeAcquired: 1
+  hideConditionGlow: 0
+  overwriteUpgradable: 0
+  cantbeupgraded: 0
+  excludeFromConjurations: 0
+  excludeFromSunforge: 0
+  excludeFromRewards: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: enchant:self
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: f3fcd74723959da44ace7130d8dc0c29, type: 2}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: addstack:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 1
+    showstacks: 1
+    showIcon: 1
+    playCardSound: 0
+    CardEffectList:
+    - cardTrigger: 40
+      codeLine: addstack:1
+      referenceCard: []
+      referenceStatus: {fileID: 0}
+      effectConditions:
+      - valueToCheck: 29
+        conditonOperator: 2
+        targetValue: blessing
+        ignoreForDisplay: 0
+    - cardTrigger: 24
+      codeLine: inflict:[[enchantmentStacks]]
+      referenceCard: []
+      referenceStatus: {fileID: 11400000, guid: f3fcd74723959da44ace7130d8dc0c29,
+        type: 2}
+      effectConditions: []

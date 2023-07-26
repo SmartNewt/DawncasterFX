@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Tenacity
+  m_EditorClassIdentifier: 
+  ID: 950963
+  expansion: 1
+  description: Start combat with Armor equal to your missing health.
+  powerImage: {fileID: -1273625002048471219, guid: 2a46f84043264874d8bda2a316b01d3d,
+    type: 3}
+  tier: 4
+  flavortext: The roar of Battle bolsters those bred for combat.
+  audioClip: {fileID: 0}
+  effectList:
+  - cardTrigger: 18
+    codeLine: bless:[[myMissingHealth]]
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: e6d3bddeae9113345a612d61e8574ca4, type: 2}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 3

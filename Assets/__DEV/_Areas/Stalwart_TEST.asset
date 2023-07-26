@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a28a91595b71a488ef4d4629160c7b, type: 3}
+  m_Name: Stalwart_TEST
+  m_EditorClassIdentifier: 
+  ID: 0
+  expansion: 0
+  areaName: Stalwart Borderlands
+  areaDescription: The river of time flows differently in the mysterious Isle of
+    Talos. It's as if it exists in a realm beyond our own, where the past and future
+    converge and swirl together in a cosmic dance. The very fabric of reality seems
+    to have been altered, creating otherworldly yet strangely familiar landscapes.
+  shortDescription: Enter the swirling vortex of time.
+  areaLevel: 6
+  areaBGName: DT_BG_Noxlight_Swamp
+  backgroundTrack: 
+  combatTrack: 
+  AreaTopFadeColor:
+    serializedVersion: 2
+    rgba: 1900544
+  AreaBottomFadeColor:
+    serializedVersion: 2
+    rgba: 3120
+  combatFrameColorOverwrite:
+    serializedVersion: 2
+    rgba: 4281477315
+  areaSpecificEvents:
+  - {fileID: 11400000, guid: 34d05c0d3cdb11d448935e372db72377, type: 2}
+  - {fileID: 11400000, guid: 34d05c0d3cdb11d448935e372db72377, type: 2}
+  - {fileID: 11400000, guid: 34d05c0d3cdb11d448935e372db72377, type: 2}
+  - {fileID: 11400000, guid: 34d05c0d3cdb11d448935e372db72377, type: 2}
+  areaOpportunities: []
+  miniBosses: []
+  areaEnemies:
+  - {fileID: 11400000, guid: a467618dedb16c943aaf9ab7d66cd7f5, type: 2}
+  areaEffects: []
+  areaSpecialStart: 1
+  enemies: 6
+  opportunities: 1
+  campfires: 3
+  npcs: 3
+  shrines: 1
+  showQuestpanel: 1
+  questTitle: Find the Dawnbringer
+  questImage: {fileID: 0}
+  questDescription: You took a shortcut through the realm of time to catch up with
+    the Dawnbringer, but now you're in trouble. The guardians of time see you as
+    an unwelcome intruder and a threat to the continuity of time. You must use your
+    wits to evade their agents and find a way back to the Shattered Realm. If you
+    fail, you'll be lost in the endless flow of time forever.
+  forcedQuestFlags: []
+  boss: {fileID: 11400000, guid: 3b9c83a94029f474290761f9f6f14cec, type: 2}
+  bossIntro: 0
+  bossIntroSound: {fileID: 0}
+  bossIntroLine: 
+  bossAppearingLine: CLEANSING-AREA
+  bossDefeatedLine: 
+  questEvents:
+  - {fileID: 11400000, guid: 48aea2996b656d14682d8a9f9357e49d, type: 2}
+  - {fileID: 11400000, guid: adb415f697dd8f8458b9a5e8737ba49b, type: 2}
+  - {fileID: 11400000, guid: 7413d871ec120674594e1fb33e1b30a9, type: 2}
+  - {fileID: 11400000, guid: 00825538562ec7c4dbbe40de89d2a8fa, type: 2}
+  openingText: {fileID: 0}
+  closingText: {fileID: 0}

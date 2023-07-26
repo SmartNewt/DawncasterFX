@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946aa6d97cd4134478a8cb540b82c1cb, type: 3}
+  m_Name: Rogue
+  m_EditorClassIdentifier: 
+  className: Rogue
+  description: Cunning scoundrels with an affinity for fortune and flair.
+  classImage: {fileID: -5666516376720308974, guid: 9091c099ad189ad4d9193ba9d54064ba,
+    type: 3}
+  classColor: {r: 0.37547234, g: 0.5943396, b: 0.28875935, a: 1}
+  associatedBanner: 1
+  portraits:
+  - {fileID: -5666516376720308974, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  - {fileID: -9217662177231450308, guid: 9091c099ad189ad4d9193ba9d54064ba, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: a118970163bd71b46845c45989c60854, type: 2}
+  talents:
+  - {fileID: 11400000, guid: 1551da05e547c744d90dce880f160b43, type: 2}
+  startingCards:
+  - {fileID: 11400000, guid: 84ecada86a660f246b2972ed5aff0446, type: 2}
+  dexterity: 2
+  intellect: 0
+  strength: 0
+  progressList:
+  - {fileID: 11400000, guid: c87f6b495f0791843b622dcff0180187, type: 2}
+  - {fileID: 11400000, guid: e43320ea082e2a141adecd196b6a1bf5, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 7fc0a6335fdd18840b86b0f4d4690dda, type: 2}
+  - {fileID: 11400000, guid: e92e5823e5be3d746a120b98c5268094, type: 2}
+  - {fileID: 11400000, guid: 13036cd2b343897449c6fc949860f59d, type: 2}
+  - {fileID: 11400000, guid: 335d685792ef89d4786872cfca12274b, type: 2}
+  - {fileID: 11400000, guid: 9713767bf0f77304c8a45135e0f2652b, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 814c4fd1a364f5b46a4bc78668206edd, type: 2}
+  - {fileID: 11400000, guid: 5b4ab719bab3c7148b3997c888389dcd, type: 2}
+  - {fileID: 11400000, guid: c04d1416a66f73749aa1583832c2cb42, type: 2}
+  - {fileID: 11400000, guid: 15e2f835589ac654294efa0aac7948d2, type: 2}
+  - {fileID: 11400000, guid: ceb32c14e84bc924fbba5f75ee0f2fa3, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 89c5466e96b8e9f4f94698fe6d8c7601, type: 2}
+  - {fileID: 11400000, guid: 06606e053f908464393044af64d84b94, type: 2}
+  - {fileID: 11400000, guid: d08d2e35093ad0a4d8e0bef4caa82a2f, type: 2}
+  - {fileID: 11400000, guid: 722aa9b56e5efc54ab2c1fc10141bd88, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: c38629d7313795843a063d2eba6c5c6e, type: 2}
+  - {fileID: 11400000, guid: 930a5523fa9511541964443257e6cc74, type: 2}
+  - {fileID: 11400000, guid: cede01fffa7209d4da7f902fef6f9e77, type: 2}
+  - {fileID: 11400000, guid: 3054cb860af9e814ba67c164a67a206b, type: 2}
+  - {fileID: 11400000, guid: 4ae2dd89a601be74bb26a0ad992c47ac, type: 2}
+  - {fileID: 11400000, guid: 6da48e921d01e8948b371406006a1c4d, type: 2}
+  - {fileID: 11400000, guid: a1f92d7c1b9c55d409bfa382b5980fcb, type: 2}
+  - {fileID: 11400000, guid: 746ede6208e48a04db9efc2d2dcb6bd1, type: 2}
+  - {fileID: 11400000, guid: 9920c87c76764f24fbef7a994e14c61b, type: 2}
+  - {fileID: 11400000, guid: 7ce11a755a5c70e4dbe3f2793fb4beeb, type: 2}
+  - {fileID: 11400000, guid: 7c1cde5f0463b9847b43e3f33be9ae05, type: 2}
+  - {fileID: 11400000, guid: 0615564b6e3bc0449918fad58b7e7719, type: 2}
+  - {fileID: 11400000, guid: d1a6fc6dfec9ba44c898e56a067071af, type: 2}
+  - {fileID: 11400000, guid: 4bdcd3a888882b24a8782fc7b11746f0, type: 2}
+  - {fileID: 11400000, guid: 3d8cc82f98d7f1c40ae78aedac77e7a0, type: 2}

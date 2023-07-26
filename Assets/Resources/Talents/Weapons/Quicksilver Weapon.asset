@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Quicksilver Weapon
+  m_EditorClassIdentifier: 
+  ID: 668117
+  expansion: 1
+  description: Use your Weapon Power to conjure 1 free dagger per level (up to 4)
+    at the start of next combat.
+  powerImage: {fileID: -8691761037722561897, guid: d99cca32a57565142ab85d41d3643289,
+    type: 3}
+  tier: 0
+  flavortext: 
+  audioClip: {fileID: 8300000, guid: b86ab43475cc4f34ea6c06b5ed5f2eef, type: 3}
+  keywords: []
+  effectList:
+  - cardTrigger: 38
+    codeLine: conjure:daggers:[[myLevel]]:4
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 2
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 0

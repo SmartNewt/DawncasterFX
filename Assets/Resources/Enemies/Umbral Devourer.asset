@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95cf4c6acb919c4cb06318f64f831a7, type: 3}
+  m_Name: Umbral Devourer
+  m_EditorClassIdentifier: 
+  nameOverwrite: 
+  eventType: 1
+  description: Countless eyes and teeth glimmer in the sparse light.
+  eventImage: {fileID: 21300000, guid: e1c1cc805c61c3d409a4233e870d47b3, type: 3}
+  overlayImage: {fileID: 21300000, guid: 3ce3e5a1564481c45bcefa52b6012552, type: 3}
+  eventConditions: []
+  preferedStartingPosition: 0
+  doNotDestroyWhenPicked: 0
+  interactibe: 1
+  excludefrombosses: 0
+  healthBar:
+    serializedVersion: 2
+    rgba: 4294902126
+  healthBarHighlight:
+    serializedVersion: 2
+    rgba: 4294901956
+  battleObject: rig_devourer
+  battleMotion: {fileID: 7400000, guid: 31f5d6b8989952d488458cb90a920a4f, type: 2}
+  animate: 1
+  onlyShowAnimated: 0
+  skipRewards: 0
+  skipXP: 0
+  adjustForTablet: 0
+  types: 02000000
+  maxHealth: 150
+  energyPerTurn: 3
+  cardsPerTurn: 3
+  maximumHandSize: 3
+  maxwounds: 5
+  startingStatus: []
+  startingEnchantments:
+  - {fileID: 11400000, guid: bcef3cb56cac20349bd30699ae780e4b, type: 2}
+  enchantmentAura: {fileID: 0}
+  deckList:
+  - {fileID: 11400000, guid: 8273955584b176c46ae314fc0849d024, type: 2}
+  - {fileID: 11400000, guid: 4a67b7e66f9c8524d9569dc2db998ec8, type: 2}
+  - {fileID: 11400000, guid: 87edea8a36e52284ba60d861ad1e4162, type: 2}
+  combatMusic: 
+  combatStart: '["Sooooo hungry...."]'
+  combatDeath: 
+  postCombatDialogue: {fileID: 0}
+  battleStages: []

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Moves like Stagger
+  m_EditorClassIdentifier: 
+  ID: 414302
+  expansion: 5
+  description: Whenever you spend STR, gain <nobr><b>1 Stagger</b></nobr> and <b>1
+    HEALTH</b>.
+  powerImage: {fileID: -7561428785861273906, guid: 62f26c0d0d7cb4e4c90431b5ccb248c3,
+    type: 3}
+  tier: 1
+  flavortext: '"Sting like a Bee Gee." - Maroon 4.'
+  audioClip: {fileID: 0}
+  keywords: []
+  effectList:
+  - cardTrigger: 4
+    codeLine: heal:1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions:
+    - valueToCheck: 35
+      conditonOperator: 2
+      targetValue: STR
+      ignoreForDisplay: 0
+  - cardTrigger: 4
+    codeLine: bless:1
+    referenceCard: []
+    referenceStatus: {fileID: 11400000, guid: d66b02f728ff5984bbdcf1608831c390, type: 2}
+    effectConditions:
+    - valueToCheck: 35
+      conditonOperator: 2
+      targetValue: STR
+      ignoreForDisplay: 0
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions: []
+  rDEX: 0
+  rINT: 0
+  rSTR: 1

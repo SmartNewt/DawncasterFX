@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919806762bdeb04497da6c5b3b0daa1, type: 3}
+  m_Name: Oracle
+  m_EditorClassIdentifier: 
+  ID: 744837
+  expansion: 5
+  description: Add a random <b>Revelation</b> to your deck for each point of Intellect
+    ([[playerINT]]).
+  powerImage: {fileID: 232776195, guid: f3519496df0a32143ad51cafdbed91ce, type: 3}
+  tier: 5
+  flavortext: '"Our imagination is the only limit to what we can hope to have in
+    the future."'
+  audioClip: {fileID: 0}
+  keywords:
+  - revelation
+  effectList:
+  - cardTrigger: 0
+    codeLine: addrevelation:[[playerINT]]
+    referenceCard:
+    - {fileID: 11400000, guid: 4f3d2748ed1c08647ba7e78f2e5cfede, type: 2}
+    - {fileID: 11400000, guid: d5acbd69b38ebda4ead09b9b87a38810, type: 2}
+    - {fileID: 11400000, guid: c4264aba93fb0e84f8e6213916176e45, type: 2}
+    - {fileID: 11400000, guid: fed18cbc19aad0844a164d6651ca669f, type: 2}
+    - {fileID: 11400000, guid: 38340f66f74229a4a85544ebe3696a33, type: 2}
+    - {fileID: 11400000, guid: 2a76f77264e18634e90bcf0a44daf1f0, type: 2}
+    - {fileID: 11400000, guid: 8860d2ebb4535934ea035a170853cd14, type: 2}
+    - {fileID: 11400000, guid: d2effb7029aebb94fac30b58af300d77, type: 2}
+    - {fileID: 11400000, guid: 1b66088d8e5280245b96d6edf61ff7fd, type: 2}
+    - {fileID: 11400000, guid: af14bb35bc7e7c94383d3675519c3ff3, type: 2}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  cooldown: 0
+  unique: 1
+  storyTalent: 0
+  excludeFromRandom: 0
+  excludeFromSunforge: 0
+  requiredTalents: []
+  requiredProfessions:
+  - {fileID: 11400000, guid: 42a60ceee5470724f80e688d3900797d, type: 2}
+  rDEX: 0
+  rINT: 2
+  rSTR: 0

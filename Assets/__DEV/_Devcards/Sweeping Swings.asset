@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f72856b04c2924592a311dad2c9a77, type: 3}
+  m_Name: Sweeping Swings
+  m_EditorClassIdentifier: 
+  cardDescription: Deal [damage:3] damage, then create a copy of this card in your
+    hand that costs STR.
+  cardSet: 1
+  cardType: 0
+  cardCategory: 0
+  cardRarity: 0
+  monsterHint: 0
+  artwork: {fileID: 21300000, guid: 36280761bff00df40a1313bf13969d60, type: 3}
+  audioClip: {fileID: 0}
+  colorCard: 3
+  costDEX: 0
+  costINT: 0
+  costSTR: 0
+  costNeutral: 0
+  costHOLY: 0
+  costDEXINT: 0
+  costDEXSTR: 0
+  costINTSTR: 0
+  costLife: 0
+  unplayable: 0
+  oneuse: 0
+  persistent: 0
+  chain: 0
+  inherent: 0
+  unique: 0
+  valuable: 0
+  cardKeywords: []
+  playConditions: []
+  CardEffectList:
+  - cardTrigger: 1
+    codeLine: damage:3
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: create:1
+    referenceCard:
+    - {fileID: 11400000}
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  - cardTrigger: 1
+    codeLine: cost:lastdrawn:STR:-1
+    referenceCard: []
+    referenceStatus: {fileID: 0}
+    effectConditions: []
+  CardEnchantments:
+    theType: 0
+    combatEnchantment: 0
+    CardEffectList: []
