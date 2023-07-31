@@ -28,11 +28,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6e51a56bb3f681842a98d6fd888bd22c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _intensity: 14.981668
+    - _intensity: 14.997817
     m_Colors:
     - _Color: {r: 0.6792453, g: 0.8236259, b: 0.9056604, a: 1}
   m_BuildTextureStacks: []

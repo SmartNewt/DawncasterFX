@@ -30,7 +30,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Intensity: 0.5
     - _Intesity: 0.2
-    - _intensity: -23.961264
+    - _intensity: -5.0294547
     m_Colors:
     - _Color: {r: 0.6541474, g: 0.8354217, b: 0.9433962, a: 1}
   m_BuildTextureStacks: []
