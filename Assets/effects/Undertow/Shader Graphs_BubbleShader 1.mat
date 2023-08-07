@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_BubbleShader
+  m_Name: Shader Graphs_BubbleShader 1
   m_Shader: {fileID: -6465566751694194690, guid: 11e2dc9216650a24e8c76ae3f3a83043, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -29,7 +29,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.25485048, g: 0.7830189, b: 0.50207824, a: 1}
+    - _Color: {r: 0.011764705, g: 0.94509804, b: 0.34895444, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7789792543792585711
 MonoBehaviour:
